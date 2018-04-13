@@ -1,12 +1,12 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
-<title>Test</title>
+<title>AI Learning Path</title>
 <link>https://podcastapp.io/playlists/</link>
-<description>test</description>
+<description>Listen to these podcasts to #getgood at AI, Machine Learning & Deep Learning</description>
 <docs>http://www.rssboard.org/rss-specification</docs>
 <generator>python-feedgen</generator>
 <lastBuildDate>Fri, 13 Apr 2018 19:58:43 +0000</lastBuildDate>
-<itunes:image href="http://s32.postimg.org/giivivqit/podcast_app_io.png"/>
+<itunes:image href="https://i.vimeocdn.com/portfolio_header/137916_256.jpg"/>
 <item>
 <title>
 The McKinsey Podcast - How to win in the age of analytics
