@@ -1,67 +1,67 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-<channel>
-<title>AI Learning Path</title>
-<link>https://podcastapp.io/playlists/</link>
-<description>Listen to these podcasts to #getgood at AI, Machine Learning & Deep Learning</description>
-<docs>http://www.rssboard.org/rss-specification</docs>
-<generator>python-feedgen</generator>
-<lastBuildDate>Fri, 13 Apr 2018 19:58:43 +0000</lastBuildDate>
-<itunes:image href="https://i.vimeocdn.com/portfolio_header/137916_256.jpg"/>
-<item>
-<title>
-The McKinsey Podcast - How to win in the age of analytics
-</title>
-<link>
-http://podcasts.mckinsey.com/podcast/MP-How-to-win-in-the-age-of-analytics.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-How-to-win-in-the-age-of-analytics.mp3&pn=How+to+win+in+the+age+of+analytics
-</link>
-<description>
-There’s greater potential in big data. What’s ahead as the field matures?
-</description>
-<guid isPermaLink="false">
-http://podcasts.mckinsey.com/podcast/MP-How-to-win-in-the-age-of-analytics.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-How-to-win-in-the-age-of-analytics.mp3&pn=How+to+win+in+the+age+of+analytics
-</guid>
-<enclosure url="http://podcasts.mckinsey.com/podcast/MP-How-to-win-in-the-age-of-analytics.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-How-to-win-in-the-age-of-analytics.mp3&pn=How+to+win+in+the+age+of+analytics" length="0" type="audio/mpeg"/>
+	<channel>
+		<title>AI Learning Path</title>
+		<link>https://podcastapp.io/playlists/</link>
+		<description>Listen to these podcasts to #getgood at AI, Machine Learning & Deep Learning</description>
+		<docs>http://www.rssboard.org/rss-specification</docs>
+		<generator>python-feedgen</generator>
+		<lastBuildDate>Fri, 13 Apr 2018 19:58:43 +0000</lastBuildDate>
+		<itunes:image href="https://i.vimeocdn.com/portfolio_header/137916_256.jpg"/>
+		<item>
+			<title>
+				The McKinsey Podcast - How to win in the age of analytics
+			</title>
+			<link>
+			http://podcasts.mckinsey.com/podcast/MP-How-to-win-in-the-age-of-analytics.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-How-to-win-in-the-age-of-analytics.mp3&pn=How+to+win+in+the+age+of+analytics
+		</link>
+		<description>
+			There’s greater potential in big data. What’s ahead as the field matures?
+		</description>
+		<guid isPermaLink="false">
+			http://podcasts.mckinsey.com/podcast/MP-How-to-win-in-the-age-of-analytics.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-How-to-win-in-the-age-of-analytics.mp3&pn=How+to+win+in+the+age+of+analytics
+		</guid>
+		<enclosure url="http://podcasts.mckinsey.com/podcast/MP-How-to-win-in-the-age-of-analytics.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-How-to-win-in-the-age-of-analytics.mp3&pn=How+to+win+in+the+age+of+analytics" length="0" type="audio/mpeg"/>
+	</item>
+	<item>
+		<title>
+			The McKinsey Podcast - Artificial intelligence in business: Separating the real from the hype
+		</title>
+		<link>
+		http://podcasts.mckinsey.com/podcast/MP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3&pn=Artificial+intelligence+in+business%3A+Separating+the+real+from+the+hype
+	</link>
+	<description>
+		The potential for AI to infuse business and value chains across various industries is greater than ever before—but where should executives start?
+	</description>
+	<guid isPermaLink="false">
+		http://podcasts.mckinsey.com/podcast/MP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3&pn=Artificial+intelligence+in+business%3A+Separating+the+real+from+the+hype
+	</guid>
+	<enclosure url="http://podcasts.mckinsey.com/podcast/MP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3&pn=Artificial+intelligence+in+business%3A+Separating+the+real+from+the+hype" length="0" type="audio/mpeg"/>
 </item>
 <item>
-<title>
-The McKinsey Podcast - Artificial intelligence in business: Separating the real from the hype
-</title>
-<link>
-http://podcasts.mckinsey.com/podcast/MP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3&pn=Artificial+intelligence+in+business%3A+Separating+the+real+from+the+hype
+	<title>
+		This Week in Machine Learning & AI Podcast - Security and Safety in AI: Adversarial Examples, Bias and Trust w/ Moustapha Cissé - TWiML Talk #108
+	</title>
+	<link>
+	http://feeds.soundcloud.com/stream/395109459-twiml-twiml-talk-108-security-safety-ai-adversarial-examples-bias-trust-moustapha-cisse.mp3
 </link>
 <description>
-The potential for AI to infuse business and value chains across various industries is greater than ever before—but where should executives start?
+	In this episode I’m joined by Moustapha Cissé, Research Scientist at Facebook AI Research Lab (or FAIR) Paris. Moustapha’s broad research interests include the security and safety of AI systems, and we spend some time discussing his work on adversarial examples and systems that are robust to adversarial attacks. More broadly, we discuss the role of bias in datasets, and explore his vision for models that can identify these biases and adjust the way they train themselves in order to avoid taking on those biases. Be sure to check out some of the great names that will be at the AI Conference in New York, Apr 29–May 2, where you'll join the leading minds in AI, Peter Norvig, George Church, Olga Russakovsky, Manuela Veloso, and Zoubin Ghahramani. Explore AI's latest developments, separate what's hype and what's really game-changing, and learn how to apply AI in your organization right now. Save 20% on most passes with discount code PCTWIML at twimlai.com/ainy2018. Early price ends February 2! The notes for this show can be found at twimlai.com/talk/108. For complete contest details, visit twimlai.com/myaicontest. For complete series details, visit twimlai.com/blackinai2018.
 </description>
 <guid isPermaLink="false">
-http://podcasts.mckinsey.com/podcast/MP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3&pn=Artificial+intelligence+in+business%3A+Separating+the+real+from+the+hype
-</guid>
-<enclosure url="http://podcasts.mckinsey.com/podcast/MP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3?pc=main&pu=http%3A%2F%2Fwww.mckinsey.com%2Fassets%2Fdotcom%2Fthe-mckinsey-podcast%2FMP-Artificial-intelligence-in-business-Separating-the-real-from-the-hype.mp3&pn=Artificial+intelligence+in+business%3A+Separating+the+real+from+the+hype" length="0" type="audio/mpeg"/>
-</item>
-<item>
-<title>
-This Week in Machine Learning & AI Podcast - Security and Safety in AI: Adversarial Examples, Bias and Trust w/ Moustapha Cissé - TWiML Talk #108
-</title>
-<link>
-http://feeds.soundcloud.com/stream/395109459-twiml-twiml-talk-108-security-safety-ai-adversarial-examples-bias-trust-moustapha-cisse.mp3
-</link>
-<description>
-In this episode I’m joined by Moustapha Cissé, Research Scientist at Facebook AI Research Lab (or FAIR) Paris. Moustapha’s broad research interests include the security and safety of AI systems, and we spend some time discussing his work on adversarial examples and systems that are robust to adversarial attacks. More broadly, we discuss the role of bias in datasets, and explore his vision for models that can identify these biases and adjust the way they train themselves in order to avoid taking on those biases. Be sure to check out some of the great names that will be at the AI Conference in New York, Apr 29–May 2, where you'll join the leading minds in AI, Peter Norvig, George Church, Olga Russakovsky, Manuela Veloso, and Zoubin Ghahramani. Explore AI's latest developments, separate what's hype and what's really game-changing, and learn how to apply AI in your organization right now. Save 20% on most passes with discount code PCTWIML at twimlai.com/ainy2018. Early price ends February 2! The notes for this show can be found at twimlai.com/talk/108. For complete contest details, visit twimlai.com/myaicontest. For complete series details, visit twimlai.com/blackinai2018.
-</description>
-<guid isPermaLink="false">
-http://feeds.soundcloud.com/stream/395109459-twiml-twiml-talk-108-security-safety-ai-adversarial-examples-bias-trust-moustapha-cisse.mp3
+	http://feeds.soundcloud.com/stream/395109459-twiml-twiml-talk-108-security-safety-ai-adversarial-examples-bias-trust-moustapha-cisse.mp3
 </guid>
 <enclosure url="http://feeds.soundcloud.com/stream/395109459-twiml-twiml-talk-108-security-safety-ai-adversarial-examples-bias-trust-moustapha-cisse.mp3" length="0" type="audio/mpeg"/>
 </item>
 <item>
-<title>This Week in Marvel - Marvel's The Pull List #14</title>
-<link>
-http://marvel.com//files/podcasts/MarvelsThePullList_Episode14.mp3
+	<title>This Week in Marvel - Marvel's The Pull List #14</title>
+	<link>
+	http://marvel.com//files/podcasts/MarvelsThePullList_Episode14.mp3
 </link>
 <description>
-Ryan and Tucker give you bite-sized previews of April 11's new comic releases, including AVENGERS, THANOS, CHAMPIONS, DARTH VADER, and all the other books that will be waiting for you in stores! Picks of the Week: CAPTAIN AMERICA #700, DOMINO #1 ...
+	Ryan and Tucker give you bite-sized previews of April 11's new comic releases, including AVENGERS, THANOS, CHAMPIONS, DARTH VADER, and all the other books that will be waiting for you in stores! Picks of the Week: CAPTAIN AMERICA #700, DOMINO #1 ...
 </description>
 <guid isPermaLink="false">
-http://marvel.com//files/podcasts/MarvelsThePullList_Episode14.mp3
+	http://marvel.com//files/podcasts/MarvelsThePullList_Episode14.mp3
 </guid>
 <enclosure url="http://marvel.com//files/podcasts/MarvelsThePullList_Episode14.mp3" length="0" type="audio/mpeg"/>
 </item>
