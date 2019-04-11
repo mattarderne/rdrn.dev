@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mattarderne
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mattarderne.github.io
+  * I am mattarderne (https://keybase.io/mattarderne) on keybase.
+  * I have a public key ASDFAakEMaDsHQ47wz6b7EFr1bCVQ4OPW85ADK4Kj-dnjgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c501a90431a0ec1d0e3bc33e9bec416bd5b09543838f5bce400cae0a8fe7678e0a",
+      "host": "keybase.io",
+      "kid": "0120c501a90431a0ec1d0e3bc33e9bec416bd5b09543838f5bce400cae0a8fe7678e0a",
+      "uid": "b07306cbd1e343caff043cdf61d9d319",
+      "username": "mattarderne"
+    },
+    "merkle_root": {
+      "ctime": 1517769443,
+      "hash": "dcf745af66e3bc1a73f4f4b5878586bee9c09a0365a0dd49edf274df08564df0eff29d3a9e54699a39f3e705d8b9fdcc9449da8c510ac1198ec50afbeae86666",
+      "hash_meta": "9a5069b4ff1a386afc8142d54c652424525ff29d24ae8ab53e01e37a06b70986",
+      "seqno": 2031514
+    },
+    "service": {
+      "hostname": "mattarderne.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1517769456,
+  "expire_in": 504576000,
+  "prev": "0fcc846ff1bd865c0a6daa67a0669c45e2dd24b3382559b1adb1b74ef5ff746d",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxQGpBDGg7B0OO8M+m+xBa9WwlUODj1vOQAyuCo/nZ44Kp3BheWxvYWTFA1B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzUwMWE5MDQzMWEwZWMxZDBlM2JjMzNlOWJlYzQxNmJkNWIwOTU0MzgzOGY1YmNlNDAwY2FlMGE4ZmU3Njc4ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzUwMWE5MDQzMWEwZWMxZDBlM2JjMzNlOWJlYzQxNmJkNWIwOTU0MzgzOGY1YmNlNDAwY2FlMGE4ZmU3Njc4ZTBhIiwidWlkIjoiYjA3MzA2Y2JkMWUzNDNjYWZmMDQzY2RmNjFkOWQzMTkiLCJ1c2VybmFtZSI6Im1hdHRhcmRlcm5lIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE3NzY5NDQzLCJoYXNoIjoiZGNmNzQ1YWY2NmUzYmMxYTczZjRmNGI1ODc4NTg2YmVlOWMwOWEwMzY1YTBkZDQ5ZWRmMjc0ZGYwODU2NGRmMGVmZjI5ZDNhOWU1NDY5OWEzOWYzZTcwNWQ4YjlmZGNjOTQ0OWRhOGM1MTBhYzExOThlYzUwYWZiZWFlODY2NjYiLCJoYXNoX21ldGEiOiI5YTUwNjliNGZmMWEzODZhZmM4MTQyZDU0YzY1MjQyNDUyNWZmMjlkMjRhZThhYjUzZTAxZTM3YTA2YjcwOTg2Iiwic2Vxbm8iOjIwMzE1MTR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWF0dGFyZGVybmUuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDAifSwiY3RpbWUiOjE1MTc3Njk0NTYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMGZjYzg0NmZmMWJkODY1YzBhNmRhYTY3YTA2NjljNDVlMmRkMjRiMzM4MjU1OWIxYWRiMWI3NGVmNWZmNzQ2ZCIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQGZv4jyNtgq/43scPy+2ZIhYamY6Ml5olzTQ7BwfFnqQEczyDmDcfQt9JxGwWW/4w4CECWK3dgCauGOL/6z/kAioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDpgtpMq/rwLU1NLi1M+KjM9/Q+lTQbrplXXJsT3eYA06N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mattarderne
+
+==================================================================
