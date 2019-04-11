@@ -15,13 +15,24 @@ bundle exec jekyll serve
 
 
 Basically:
-[x] delete shit in _data/ unless you want photos/books
-[x] some hardcoded stuff (side nav, email) in _layouts/default.html 
-[x] delete everything in _posts/ (but keep a blank one as a template)
-[ ] delete everything in assets except fonts/ and replace images/face.jpg if you 
-[x] delete CNAME
-[x] edit as appropriate in _config.yml
-[x] delete/edit about.md
-[ ] delete/replace favicon.ico
-[x] delete if you want photos.html and books.html
-[ ] delete the two hardcoded <url> entries from sitemap.xml
+- [x] delete shit in _data/ unless you want photos/books
+- [x] some hardcoded stuff (side nav, email) in _layouts/default.html 
+- [x] delete everything in _posts/ (but keep a blank one as a template)
+[ ] delete everything in assets except fonts/ and replace images/face.jpg if - you 
+- [x] delete CNAME
+- [x] edit as appropriate in _config.yml
+- [x] delete/edit about.md
+- [ ] delete/replace favicon.ico
+- [x] delete if you want photos.html and books.html
+- [ ] delete the two hardcoded <url> entries from sitemap.xml
+
+
+Do
+- [ ] figure out photos for one per page blank
+- [ ] weekly bit, articles, podcasts, twitter
+- [ ] cleanup teaching and some links
+- [ ] do sailing and sports page
+- [ ] cleanup about
+- [ ] write a blog post
+    - [ ]  work related
+    - [ ]  outdoors related
