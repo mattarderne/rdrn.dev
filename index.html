@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-	<h1>foo</h1>
+<h1> Hello </h1>
+{{ site.aboutme}}
 
-    <article class="archive-item" itemscope itemtype="https://schema.org/CreativeWork">
-      <h2 class="archive-item-title" itemprop="headline">
-        <a href="{{ site.about.title | relative_url }}" rel="permalink">{{ site.about.title }}</a>
-      </h2>
-      <p class="archive-item-excerpt" itemprop="description">{{ site.about.excerpt | markdownify |  truncate: 250 }}</p>
-    </article>
+<br>
+<br>
+<br>
+<br><br>
 
-    <h1>Latest posts</h1>
+<h1>Latest Posts</h1>
 
 {% for post in site.posts %}
   {% unless post.exclude %} 

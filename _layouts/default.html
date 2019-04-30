@@ -61,15 +61,18 @@ layout: compress
           <img src="{{ site.avatar }}" alt="{{ site.title }}" class="author-avatar" itemprop="image">
           <div class="author-content">
             <h4 itemprop="name">{{ site.title }}</h4>
-            <a href="/"><h5>Home</h5></a>
-            <a href="/about/"><h5>About</h5></a>
-            <a href="/books/"><h5>Books</h5></a>
-            <a href="/photos/"><h5>Photos</h5></a>
-            <a href="/training/"><h5>Training</h5></a>
+            <nav>
+              {% for item in site.data.navigation %}
+                <!-- <a href="" {% if page.url == item.link %}style="color: red;"{% endif %}> -->
+                <a href="{{ item.link }}"><h5>{{ item.name }}</h5></a>
+                </a>
+              {% endfor %}
+            </nav>
+
             <a href="mailto:{{ site.email }}"><i class="icon icon-mail"></i></a>
             <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"><i class="icon icon-li"></i></a>
             <a href="https://github.com/{{ site.github }}" target="_blank"><i class="icon icon-github-circled"></i></a>
-            <!-- <h5 itemprop="name">London, UK</h5> -->
+            <!-- <h5 itemprop="name">{{ site.location }}</h5> -->
           </div>
 
         </div>

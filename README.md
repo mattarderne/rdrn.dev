@@ -1,6 +1,6 @@
 # mattarderne.github.io
 
-Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll.
+Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll using [my brother @carderne's very neat theme](https://github.com/carderne/carderne.github.io)
 
 To serve locally:
 ```
@@ -11,7 +11,11 @@ bundle exec jekyll serve
 
 
 [_data](/_data) - photos.yml to describe pics
-[_layouts/default.html](_layouts/default.html) -  setup all the areas
+[_layouts/default.html](/_layouts/default.html) -  setup the side bar
+[_config.yml](/_config.yml) -  variables for whole site
+[index.html](/index.html) -  html for the landing page content
+
+
 
 
 Basically:
@@ -22,17 +26,25 @@ Basically:
 - [x] delete CNAME
 - [x] edit as appropriate in _config.yml
 - [x] delete/edit about.md
-- [ ] delete/replace favicon.ico
 - [x] delete if you want photos.html and books.html
-- [ ] delete the two hardcoded <url> entries from sitemap.xml
 
 
 Do
-- [ ] figure out photos for one per page blank
+before merge:
+
+- [x] cleanup teaching and some links
+- [x] do sailing page
+- [x] sports page
+- [x] cleanup about.md and add to home
+- [ ] spellcheck
+
+After merge:
+- [ ] replace favicon.ico
+- [ ] setup sitemap.xml
 - [ ] weekly bit, articles, podcasts, twitter
-- [ ] cleanup teaching and some links
-- [ ] do sailing and sports page
-- [ ] cleanup about
+- [ ] figure out photos for one per page blank
 - [ ] write a blog post
     - [ ]  work related
     - [ ]  outdoors related
+- [ ] figure out books  
+

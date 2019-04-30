@@ -10,6 +10,9 @@ location                 : "London, UK"
 github                   : "mattarderne"
 linkedin                 : "matthew-arderne"
 email                    : "matt@pm.me"
+buzzwords                : "Data Engineering • Data Warehousing, Integration and ETL • Data Modelling • Data Strategy and Training • KPI Measurement and Dashboards"
+aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value. I've put together a quick look into my professional & personal life.
+    I like helping businesses drive value from their people, systems and processes using data and modern cloud systems. Analytics Engineering is the closest approximation!"
 
 plugins:
 #  - jekyll-sitemap
