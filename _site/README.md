@@ -47,4 +47,5 @@ After merge:
     - [ ]  work related
     - [ ]  outdoors related
 - [ ] figure out books  
+- [ ] figure out RSS feed
 
