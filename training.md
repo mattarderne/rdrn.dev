@@ -1,31 +1,40 @@
 ---
 layout: single
-title: training
+title: Training
 excerpt: "I teach SQL"
 exclude: true
 ---
 
-I teach students the basics of Excel, SQL and Data Vizualization as an instructor on the General Assembly Data Analytics course.
+> I love teaching, and offer educational services to better enable data teams.
 
-Beyond that, I can offer to help your team of data analysts, data engineers, product managers and developers up to speed on the Modern Data Analytics Stack.
+I teach working professionals the basics of **Excel, SQL** and **Data Vizualization** as an instructor on the [General Assembly Data Analytics](https://generalassemb.ly/education/data-analytics) course.
+
+Beyond that, I get your team of data analysts, product managers and developers up to speed on the Modern Data Analytics Stack.
 
 Drop me an email to tailor a workshop and for details on availability and pricing!
 
 For example, a curriculum might look like this:
 
-## curriculum
+## Curriculum
 
-SQL v1: The Bread & Butter Stuff
-    The Modern Analytics Data Stack
-    Benefits of Dimensional Modeling
+### SQL v1: The Bread & Butter Stuff
+   * The Modern Analytics Data Stack
+   * Excel
+   * SQL
+   * BI Tools and Data Vis!
 
-SQL v2: More Fancy
-    dbt - Data Build Tool
+### SQL v2: More Fancy
+   * dbt - Data Build Tool
+   * Testing and Data Quality
     
-SQL v3: Debugging
+### SQL v3: Data Pipelines and APIs
+   * Data Loaders and S3
+   * Building APIs using AWS Lambda
+   * Logging and Debugging 
+   * Automation and Deployment
 
 
-## SQL v1.1: The Bread & Butter Stuff
+<!-- ## SQL v1.1: The Bread & Butter Stuff
 
 * Anatomy of a SQL statement
 * Hands-on SQL Session
@@ -95,4 +104,4 @@ SQL v3: Debugging
     * Troubleshooting lost rows
 * Performance tuning
     * Profiler
-    * Query Plans
+    * Query Plans -->

@@ -43,6 +43,11 @@
     </url>
   
     <url>
+      <loc>http://localhost:4000/blog/</loc>
+      
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/books/</loc>
       
     </url>

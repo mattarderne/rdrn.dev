@@ -24,11 +24,10 @@ This page gives a brief overview of the time I've spent on the sea or at sea, an
 * Powerboat II
 * STCW95 (expired)
 
-**Clubs**:   -
-
 **Sea Miles**: 
 * Motor: ~5000nm
 * Sail: ~3000nm 
+* Offshore Racing: ~1000nm
 
 **Crewing Profiles:** 
 
@@ -45,13 +44,18 @@ This page gives a brief overview of the time I've spent on the sea or at sea, an
 
 ## Racing
 
+
+[fastnet]: /assets/photos/sailing/fastnet_start.jpg
+RORC Fastnet Start 2019.
+![fastnet][fastnet]
+
+[channel]: /assets/photos/sailing/channel_race.jpg
+RORC Channel Race 2019.
+![fastnet][channel]
+
 [jt1]: /assets/photos/sailing/jt1.png
-
-[jt2]: /assets/photos/sailing/jt2.png
-
 Racing on Jybe Talkin, 2019 Warsash Spring Series.
 ![Grinding when told][jt1]
-![][jt2]
 
 Racing on Sweat Pea, 2019 JOG Nab Tower.
 ![Railmeat](/assets/photos/sailing/nab1.png)
@@ -75,9 +79,6 @@ Avel support vessel, SY Creole.
 ![](/assets/photos/sailing/creole5.jpg)
 
 ![](/assets/photos/sailing/creole6.jpg)
-
-River racing near London on the river Crouch, Winter 2018.
-![](/assets/photos/sailing/crouch.jpg)
 
 ## Cruising
 Charter of a small Beneteau using Click&Boat in Marseille.

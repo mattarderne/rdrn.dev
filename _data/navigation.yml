@@ -1,4 +1,4 @@
-- name: Matt
+- name: Matt Arderne
   link: /
 - name: About
   link: /about
@@ -6,3 +6,5 @@
   link: /tech
 - name: Training
   link: /training
+- name: Blog
+  link: /blog

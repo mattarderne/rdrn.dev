@@ -1,31 +1,17 @@
 ---
 layout: default
 ---
-<h1> Helping companies scale by providing data and technology expertise. </h1>
-
-With a passion for data, and deep insight into emerging technology, I’ve enabled businesses grow by unlocking the value in their data, and aligning future tech plans with the opportunities available to a data driven company.
 <br>
 <br>
-Let me help you unlock the hidden value in your business, either through helping you define your strategy, or implement technology to help you execute against your targets.
+<h1>Helping companies scale by providing data expertise.</h1>
+
+With a passion for data, and deep insight into emerging technology, I’ve enabled businesses to grow by unlocking the value in their data, and aligning their tech strategy with the opportunities available to a data driven company.
+<br>
+<br>
+Let me help you unlock the hidden value in your business, either through helping <b>define your strategy</b>, or <b>implement technology </b>to help you execute against your targets.
 
 <br>
 <br>
 <br>
-<br><br>
 
-<h1>Latest Posts</h1>
-
-{% for post in site.posts %}
-  {% unless post.exclude %} 
-    
-    <article class="archive-item" itemscope itemtype="https://schema.org/CreativeWork">
-      <h2 class="archive-item-title" itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-      </h2>
-      <p class="archive-item-excerpt" itemprop="description">{{ post.excerpt | markdownify |  truncate: 250 }}</p>
-      <p class="archive-item-date"> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></p>
-    </article>
-
-  {% endunless %}
-{% endfor %}
 
