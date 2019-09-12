@@ -53,17 +53,17 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/photos/</loc>
-      
-    </url>
-  
-    <url>
       <loc>http://localhost:4000/sailing/</loc>
       
     </url>
   
     <url>
       <loc>http://localhost:4000/sports/</loc>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/tech/</loc>
       
     </url>
   

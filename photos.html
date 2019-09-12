@@ -1,32 +1,63 @@
----
-layout: default
-title: Photos
----
-<div class="photos">
-  {% for photo in site.data.photos %}
-  {% assign a = photo.src | split: '/20' %}
-  {% assign id = a[1] | split: '.' %}
-  {% assign id = id[0] %}
-  <div class="thumb">
-    <label for={{ id }}>
-      <img class="thumb-image" src={{ photo.src }} alt={{ photo.caption }}>
-      <div class="caption">
-        <span class="photo-date">{{ photo.date }} </span>
-        <span class="photo-caption">{{ photo.caption }}</span>
-      </div>
-    </label>
-    <input class="modal-state" id={{ id }} type="checkbox">
-    <div class="modal">
-      <label for={{ id }}>
-        <div class="modal-content">
-          <img class="modal-photo" src={{ photo.src }} alt={{ photo.caption }}>
-          <div>
-            <span class="photo-date">{{ photo.date }} </span>
-            <span class="photo-caption">{{ photo.caption }}</span>
-          </div>
-        </div>
-      </label>
-    </div>
-  </div>
-  {% endfor %}
+<html>
+<head>
+<title>Film Photography</title>
+
+<style type="text/css">
+body {
+	background: #222;
+	color: #eee;
+	margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.thumbnails img {
+	height: 50px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 1080px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="gallery" align="center">
+	<!-- <h2>Film Photography</h2> -->
+	<p>Film Photography.</p>
+  <p><a target="_blank" href="https://rdrn.dev/">Home</a></p>
+	<br />
+
+	<div class="preview" align="center">
+		<img name="preview" src="/assets/images/film/1.jpg" alt=""/>
+	</div>
+
+  <div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="/assets/images/film/1.jpg" alt=""/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="/assets/images/film/2.jpg" alt=""/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="/assets/images/film/3.jpg" alt=""/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="/assets/images/film/4.jpg" alt=""/>
+		<img onmouseover="preview.src=img5.src" name="img5" src="/assets/images/film/5.jpg" alt=""/>
+		<img onmouseover="preview.src=img6.src" name="img6" src="/assets/images/film/6.jpg" alt=""/>
+	</div><br/>
 </div>
+<p>Matt Arderne || All Righrs Reserved.</p>
+
+</body>
+</html>

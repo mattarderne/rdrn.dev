@@ -1,8 +1,8 @@
 # Site Settings
 locale                   : "en-US"
-title                    : "Matt Arderne"
-author                   : "Matt Arderne"
-description              : "A blog about my work and some personal things thrown in. Use the links above to learn more, see my work and get in touch."
+title                    : "Matt A"
+author                   : "Matt A"
+description              : "Use the links above to learn more, see my work and get in touch."
 url                      : "https://rdrn.dev"
 home                     : "/"
 avatar                   : "/assets/images/face.jpg" 
@@ -10,9 +10,8 @@ location                 : "London, UK"
 github                   : "mattarderne"
 linkedin                 : "matthew-arderne"
 email                    : ""
-buzzwords                : "Data Engineering • Data Warehousing, Integration and ETL • Data Modelling • Data Strategy and Training • KPI Measurement and Dashboards"
-aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value. I've put together a quick look into my professional & personal life.
-    I like helping businesses drive value from their people, systems and processes using data and modern cloud systems. Analytics Engineering is the closest approximation!"
+buzzwords                : "Fintech • Blockchain • Data Engineering • Data Strategy • Machine Learning & AI"
+aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value."
 
 plugins:
 #  - jekyll-sitemap
