@@ -1,0 +1,54 @@
+# Site Settings
+locale                   : "en-US"
+title                    : ""
+author                   : "Matt Arderne"
+description              : "Use the links above to learn more, see my work and get in touch."
+url                      : "https://rdrn.dev"
+home                     : "/"
+avatar                   : "/assets/images/face.jpg" 
+location                 : "London, UK"
+github                   : "mattarderne"
+linkedin                 : "matthew-arderne"
+email                    : ""
+buzzwords                : "Fintech • Blockchain • Data Engineering • Data Strategy • Machine Learning & AI"
+aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value."
+
+plugins:
+#  - jekyll-sitemap
+  - jekyll-feed
+
+# Reading Files
+exclude:
+  - .sass-cache
+  - Gemfile
+  - LICENSE
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:title/
+
+compress_html:
+  clippings: all
