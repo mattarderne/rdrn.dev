@@ -24,7 +24,7 @@ Please get in touch via the links on the left or [subscribe](/feed.xml) to this 
 My personal links:
 * [Sailing Blog](/sailing/)
 * [Sports Media](/sports/)
-* [Photography](/photos/)
+* [Photography](/photos)
 
 
 
