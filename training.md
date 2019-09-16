@@ -5,15 +5,15 @@ excerpt: "I teach SQL"
 exclude: true
 ---
 
-> I love teaching, and offer educational services to better enable data teams.
+> I am passionate about teaching, and offer educational services to better enable data teams.
 
 I teach working professionals the basics of **Excel, SQL** and **Data Vizualization** as an instructor on the [General Assembly Data Analytics](https://generalassemb.ly/education/data-analytics) course.
 
-Beyond that, I get your team of data analysts, product managers and developers up to speed on the Modern Data Analytics Stack.
+Beyond that, I can get your team of data analysts, product managers and developers up to speed on the Modern Data Analytics Stack.
 
-Drop me an email to tailor a workshop and for details on availability and pricing!
+Drop me an email to tailor a workshop and for details on availability and pricing.
 
-For example, a curriculum might look like this:
+An example curriculum might look like this:
 
 ## Curriculum
 

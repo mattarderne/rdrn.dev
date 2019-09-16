@@ -5,7 +5,7 @@ excerpt: "My tech skills"
 exclude: true
 ---
 
-> A few of the technology domains I am most familiar with
+> This page provides some of the technology domains I can offer experise in.
 
 # Data
 
