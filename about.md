@@ -13,15 +13,14 @@ exclude: true
 I enjoy helping businesses drive value from their people, systems and processes using data and modern cloud systems. Analytics Engineering is the closest approximation.
 <br>
 <br>
-I'm available for freelance work remotely or in {{ site.location }} wherever the following meet: 
+I'm available for consulting, remote development or in person in {{ site.location }}. 
 <br>
 
 
-Please get in touch via the links on the left.
+Please get in touch via the links on the right.
 
-[{{ site.email }}](mailto:{{ site.email }})
 
-### My personal links:
+### My personal pages:
 
 * [Sailing Blog](/sailing/)
 * [Sports Media](/sports/)
