@@ -13,12 +13,13 @@ exclude: true
 I enjoy helping businesses drive value from their people, systems and processes using data and modern cloud systems. Analytics Engineering is the closest approximation.
 <br>
 <br>
-I'm available for consulting, remote development or in person in {{ site.location }}. 
+I'm available for consulting and remote or in person development.
 <br>
 
-
 Please get in touch via the links on the right.
-
+<br>
+I'm currently based in {{ site.location }}. 
+<br>
 
 ### My personal pages:
 
