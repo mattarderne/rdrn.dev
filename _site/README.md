@@ -38,3 +38,5 @@ After merge:
 - [ ] figure out books  
 - [ ] figure out RSS feed
 
+
+All absurd.design images used from [https://absurd.design/](https://absurd.design/)

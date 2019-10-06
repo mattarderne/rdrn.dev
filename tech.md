@@ -5,6 +5,8 @@ excerpt: "My tech skills"
 exclude: true
 ---
 
+<!-- <img name="absurd.design" src="/assets/images/ad_idea.png" alt=""/> -->
+
 > This page covers the technology domains I can offer experise in.
 
 # Data
@@ -29,3 +31,4 @@ I have managed and successfully implemented Data Integration, Data Reporting, CR
 
 * Docker, Github, Jenkins
 * AWS EC2, RDS, Lambda, Elastic Beanstalk
+

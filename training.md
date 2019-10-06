@@ -5,6 +5,8 @@ excerpt: "I teach SQL"
 exclude: true
 ---
 
+<!-- <img name="absurd.design" src="/assets/images/ad_training.png" alt=""/> -->
+
 > I am passionate about teaching, and offer educational services to better enable data teams.
 
 I teach working professionals the basics of **Excel, SQL** and **Data Vizualization** as an instructor on the [General Assembly Data Analytics](https://generalassemb.ly/education/data-analytics) course.
@@ -26,6 +28,7 @@ An example curriculum might look like this:
 ### SQL v2: More Fancy
    * dbt - Data Build Tool
    * Testing and Data Quality
+   * [Data Modeling](https://www.stitchdata.com/blog/best-practices-for-data-modeling/)
     
 ### SQL v3: Data Pipelines and APIs
    * Data Loaders and S3

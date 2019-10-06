@@ -4,6 +4,7 @@ title: About
 excerpt: {{ site.aboutme }} 
 exclude: true
 ---
+<!-- <img name="absurd.design" src="/assets/images/ad_landing.png" alt=""/> -->
 
 > This page is a quick introduction to my professional and personal interests.
 
