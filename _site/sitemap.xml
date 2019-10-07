@@ -53,12 +53,22 @@
     </url>
   
     <url>
+      <loc>http://localhost:4000/photography/</loc>
+      
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/</loc>
       
     </url>
   
     <url>
       <loc>http://localhost:4000/sailing/</loc>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/photography/san-francisco/</loc>
       
     </url>
   
