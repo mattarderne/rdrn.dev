@@ -37,6 +37,7 @@ After merge:
     - [ ]  outdoors related
 - [ ] figure out books  
 - [ ] figure out RSS feed
+- [ ] add an [image](https://olivierpieters.be/blog/2016/02/26/creating-a-jekyll-image-gallery) gallery
 
 
 All absurd.design images used from [https://absurd.design/](https://absurd.design/)
