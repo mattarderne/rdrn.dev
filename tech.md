@@ -12,7 +12,7 @@ exclude: true
 # Projects
 
 A few projects that I am working on and developing. In order of interest:
-1. [waves.dev](http://rdrn.com/CommitLearn) - Involving waves and neural nets, currently in _stealth_!
+1. [waves.dev](http://rdrn.com/waves) - Involving waves and neural nets, currently in _stealth_!
 1. [CommitLearn](http://rdrn.com/CommitLearn) - This is an experimental audio learning experience using podcasts!
 1. [concentrait](https://rdrn.dev/concentrait/) - The learning optimization API
 1. [kaya.chat](https://rdrn.dev/kaya.chat/) - A mentorship & student support service, facilitating & automating mentorship, guidance networks and informed support
