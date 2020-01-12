@@ -17,7 +17,7 @@ I enjoy helping businesses drive value from their people, systems and processes 
 I'm available for consulting and remote or in person development.
 <br>
 
-Please get in touch via the links on the right.
+Please get in touch via the links on the left.
 <br>
 I'm currently based in {{ site.location }}. 
 <br>

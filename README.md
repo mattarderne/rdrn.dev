@@ -4,7 +4,7 @@ Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll using
 
 To serve locally:
 ```
-gem install bundler jekyll
+gem install bundler jekyl
 bundle exec jekyll serve
 ```
 
@@ -31,11 +31,11 @@ After merge:
 - [ ] replace favicon.ico
 - [ ] setup sitemap.xml
 - [ ] weekly bit, articles, podcasts, twitter
-- [x] figure out photos for one per page blank
+- [ ] figure out photos JS
 - [ ] write a blog post
     - [ ]  work related
     - [ ]  outdoors related
-- [ ] figure out books  
+- [ ] figure out book / bookshelf recommendations
 - [ ] figure out RSS feed
 
 
