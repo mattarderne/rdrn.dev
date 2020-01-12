@@ -1,7 +1,7 @@
 - name: Matt Arderne
   link: /
 - name: About
-link: /about
+  link: /about
 - name: Blog
   link: /blog
 - name: Tech
