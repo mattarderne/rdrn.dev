@@ -347,8 +347,8 @@
   
   @include lg {
     border-bottom: 0;
-    float: inline-end;
-    width: calc(#{$sidebar-width} - 3em);
+    float: left;
+    width: calc(#{$sidebar-width} - 1em);
   }
 
   h4, h5 {
@@ -361,13 +361,13 @@
 .author-avatar {
   display: block;
   width: 12em;
-  margin: left;
-  max-width: 12em;
+  margin: auto;
+  max-width: 9em;
 }
 
 .author-content {
   display: block;
-  text-align: left;
+  text-align: center;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 0;

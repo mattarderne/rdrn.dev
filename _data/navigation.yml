@@ -1,10 +1,10 @@
 - name: Matt Arderne
   link: /
 - name: About
-  link: /about
+link: /about
+- name: Blog
+  link: /blog
 - name: Tech
   link: /tech
 - name: Training
   link: /training
-- name: Blog
-  link: /blog
