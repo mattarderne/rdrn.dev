@@ -4,7 +4,7 @@ Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll using
 
 To serve locally:
 ```
-gem install bundler jekyll
+gem install bundler jekyl
 bundle exec jekyll serve
 ```
 
@@ -31,12 +31,14 @@ After merge:
 - [ ] replace favicon.ico
 - [ ] setup sitemap.xml
 - [ ] weekly bit, articles, podcasts, twitter
-- [x] figure out photos for one per page blank
+- [ ] figure out photos JS
 - [ ] write a blog post
     - [ ]  work related
     - [ ]  outdoors related
-- [ ] figure out books  
+- [ ] figure out book / bookshelf recommendations
 - [ ] figure out RSS feed
-
+- [ ] Blogs - do directly on HN
+    - Do a post with no link, text is body
+    - Show all posts on "blog" tab using https://github.com/jsomers/hacker-classics
 
 All absurd.design images used from [https://absurd.design/](https://absurd.design/)

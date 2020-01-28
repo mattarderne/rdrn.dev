@@ -5,12 +5,13 @@ author                   : "Matt Arderne"
 description              : "Use the links above to learn more, see my work and get in touch."
 url                      : "https://rdrn.dev"
 home                     : "/"
-avatar                   : "/assets/images/face.jpg" 
+avatar                   : "" 
+# /assets/images/face.jpg
 location                 : "London, UK"
 github                   : "mattarderne"
-linkedin                 : "matthew-arderne"
+linkedin                 : "m-ard"
 email                    : "matt@rdrn.dev"
-buzzwords                : "Fintech • Blockchain • Data Engineering • Data Strategy • Machine Learning & AI"
+buzzwords                : "Fintech • Data Engineering • Data Strategy • Machine Learning & AI"
 aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value."
 
 plugins:
