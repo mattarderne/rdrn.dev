@@ -15,7 +15,7 @@ I spent a few years learning about cameras, videography and filming action sport
 <iframe src="https://player.vimeo.com/video/52294962" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 # Skateboarding
-I was lucky enough to join <a href="http://skategreenerpastures.com/matt-arderne/">a downhill skateboarding trip</a> in Switzerland at the height of my downhill skateboarding career. This is episode one.
+I was lucky enough to join <a href="https://web.archive.org/web/20191102071210/skategreenerpastures.com/matt-arderne/">a downhill skateboarding trip</a> in Switzerland at the height of my downhill skateboarding career. This is episode one.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BTDAhB6kp4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Surfing
