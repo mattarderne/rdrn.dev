@@ -29,7 +29,7 @@ I'm currently based in {{ site.location }}.
 
 * [Sailing Blog](/sailing/)
 * [Sports Media](/sports/)
-* [Photography](/photos)
+* [Photography](https://film.rdrn.dev/film/)
 
 ### My talented brothers
 
