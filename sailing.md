@@ -116,3 +116,5 @@ What $300 000 per week will get you. An interesting industry to have experienced
 
 ![](/assets/photos/sailing/nice4.jpg)
 
+
+<img name="absurd.design" src="/assets/images/ad_landing.png" alt=""/>

@@ -5,7 +5,7 @@ excerpt: "My tech skills"
 exclude: true
 ---
 
-<!-- <img name="absurd.design" src="/assets/images/ad_idea.png" alt=""/> -->
+
 
 > This page covers the technology domains I can offer expertise in.
 
@@ -22,16 +22,10 @@ A few projects that I am working on and developing. In order of interest:
 
 ## 1. Data
 
-I work as a Head of Data, specializing in Analytics and Artificial Intelligence, and with a strong foundational basis in Data Warehousing & Data Integration. This means I am very comfortable across the data systems life cycle with Python, ML, Neural Nets, SQL, ETL and general Data Wrangling. I'm also comfortable with Devops and managing AWS infra, BI tools such as Tableau and Looker and architects these systems.
+I work as a Head of Data, specializing in Analytics and Artificial Intelligence, and with a strong foundational basis in Data Warehousing & Data Integration. This means I am very comfortable across the data systems life cycle with Python, ML, Neural Nets, SQL, ETL and general Data Wrangling. I'm also comfortable with Devops and managing AWS infra, BI tools such as Tableau and Looker [and architecting these systems](https://groupby1.substack.com/p/data-as-a-utility-tool).
 
 I also offer hands-on [training](/training/) in all matters relating to Data.
 
-* Predictive Models
-    * Pytorch
-    * Credit Rating models
-        * Probability of Default
-        * Recovery Rate
-    * Logistic Regression & XGBoost
 * Data Engineering
     * Denodo Data Virtualization
     * Snowflake, Redshift, PostgreSQL & MySQL
@@ -44,6 +38,12 @@ I also offer hands-on [training](/training/) in all matters relating to Data.
     * Looker & Tableau
     * Metabase
     * PowerBI
+* Predictive Models
+    * Pytorch
+    * Credit Rating models
+        * Probability of Default
+        * Recovery Rate
+    * Logistic Regression & XGBoost
 
 ## 2. Business
 
@@ -58,3 +58,5 @@ I have managed and successfully implemented Data Integration, Data Reporting, CR
 * Docker, Github, Jenkins
 * AWS EC2, RDS, Lambda, Elastic Beanstalk
 
+
+<img name="absurd.design" src="/assets/images/ad_idea.png" alt=""/>

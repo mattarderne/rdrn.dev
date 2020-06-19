@@ -28,3 +28,4 @@ Some surfing in Bali
 
 								
 
+<img name="absurd.design" src="/assets/images/ad_landing.png" alt=""/>

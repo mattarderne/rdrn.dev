@@ -5,7 +5,6 @@ excerpt: "I teach SQL"
 exclude: true
 ---
 
-<!-- <img name="absurd.design" src="/assets/images/ad_training.png" alt=""/> -->
 
 > I am passionate about teaching, and offer educational services to better enable data teams.
 
@@ -20,22 +19,22 @@ An example curriculum might look like this:
 ## Curriculum
 
 ### SQL v1: The Bread & Butter Stuff
-   * The Modern Analytics Data Stack
+   * [The Modern Analytics Data Stack](https://groupby1.substack.com/p/data-as-a-utility-tool)
    * Excel
    * SQL
    * BI Tools and Data Vis!
 
 ### SQL v2: More Fancy
-   * dbt - Data Build Tool
+   * Dataform & dbt - transforming the data
    * Testing and Data Quality
    * [Data Modeling](https://www.stitchdata.com/blog/best-practices-for-data-modeling/)
     
 ### SQL v3: Data Pipelines and APIs
-   * Data Loaders and S3
-   * Building APIs using AWS Lambda
-   * Logging and Debugging 
+   * Data Loaders such as Stitch, Fivetran
+   * Building custom ELT 
    * Automation and Deployment
 
+<img name="absurd.design" src="/assets/images/ad_training.png" alt=""/>
 
 <!-- ## SQL v1.1: The Bread & Butter Stuff
 
