@@ -17,7 +17,7 @@ I enjoy helping businesses drive value from their people, systems and processes 
 I have significant expertise in SME businesses - funding, data, accounting, CRM, ERP, tech, strategy, growth.
 <br>
 <br>
-I'm available for consulting and remote or in person development.
+<!-- I'm available for consulting and remote or in person development. -->
 <br>
 
 Please get in touch via the links on the left.
