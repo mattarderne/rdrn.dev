@@ -285,6 +285,8 @@ Snowflake is marching towards the abstractions seen in Software Engineering, whe
 
 **Please comment if you have any feedback on any of this, I aim to improve with your help.**
 
+Thanks to Dan Lee for reviewing and contributing to this post. 
+
 <div>
 
 * * *
