@@ -18,24 +18,23 @@ bundle exec jekyll serve
 
 
 
-Do
-before merge:
+ToDo
 
 - [x] cleanup teaching and some links
 - [x] do sailing page
 - [x] sports page
 - [x] cleanup about.md and add to home
 - [x] spellcheck
+- [x] figure out photos JS
+- [x] write a blog post
+    - [x]  work related
 
-After merge:
+- [ ] add [comments in github](https://dc25.github.io/myBlog/2017/06/24/using-github-comments-in-a-jekyll-blog.html)
+- [ ] figure out book / bookshelf recommendations
 - [ ] replace favicon.ico
 - [ ] setup sitemap.xml
 - [ ] weekly bit, articles, podcasts, twitter
-- [ ] figure out photos JS
-- [ ] write a blog post
-    - [ ]  work related
-    - [ ]  outdoors related
-- [ ] figure out book / bookshelf recommendations
+- [ ] Blog sailing related
 - [ ] figure out RSS feed
 - [ ] Blogs - do directly on HN
     - Do a post with no link, text is body
