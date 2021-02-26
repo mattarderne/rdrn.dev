@@ -4,7 +4,8 @@ Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll using
 
 To serve locally:
 ```
-gem install bundler jekyl
+gem install bundler jekyll
+gem update --system
 bundle exec jekyll serve
 ```
 
@@ -30,6 +31,7 @@ ToDo
     - [x]  work related
 
 - [ ] add [comments in github](https://dc25.github.io/myBlog/2017/06/24/using-github-comments-in-a-jekyll-blog.html)
+    - or something using [this](https://github.com/open-source-ideas/open-source-ideas.github.io)
 - [ ] figure out book / bookshelf recommendations
 - [ ] replace favicon.ico
 - [ ] setup sitemap.xml
@@ -39,5 +41,6 @@ ToDo
 - [ ] Blogs - do directly on HN
     - Do a post with no link, text is body
     - Show all posts on "blog" tab using https://github.com/jsomers/hacker-classics
+- [ ] add a landing page [visualisation](https://ptsjs.org/demo/?name=htmlform.scope)
 
 All absurd.design images used from [https://absurd.design/](https://absurd.design/)

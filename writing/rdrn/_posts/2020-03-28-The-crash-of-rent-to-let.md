@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: The crash of rent-to-let
 date: '2020-03-28 19:17:00'
 excerpt: "This time, an investigation into Airbnb and the property market, and looking for hopeful signs in the virus outbreak.."

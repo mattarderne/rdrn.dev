@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Risk and Global Systems
 date: '2020-03-6 19:17:00'
 excerpt: "This time, the impact of a virus on globalism."

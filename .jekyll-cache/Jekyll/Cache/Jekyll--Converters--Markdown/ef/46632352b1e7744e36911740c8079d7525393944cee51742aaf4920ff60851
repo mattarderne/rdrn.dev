@@ -1,0 +1,348 @@
+I"�p<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F11363802-d543-41b8-b457-8a993b9abb62_1600x1066.jpeg"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/11363802-d543-41b8-b457-8a993b9abb62_1600x1066.jpeg" alt="" /></a></p>
+
+<p>In <a href="https://groupby1.substack.com/p/data-as-a-utility-tool">my first post,</a> I justified an approach to achieve a scalable system for <strong>loading, storing, transforming and distributing</strong> data within an analytics context.</p>
+
+<p>In this post, we’ll be taking a look into my notebook on <strong>storing</strong>. Specifically, the things I’ve noted as useful when implementing Snowflake. These few notes, scripts and points of reference should save you some time and get you out onto the water sooner.</p>
+
+<p>Welcome to my pocket notebook, heading <em><strong>Snowflake Important Things - Jan 2020.</strong></em></p>
+
+<div>
+
+* * *
+
+</div>
+
+<h2 id="why-snowflake">Why Snowflake</h2>
+
+<p>This isn’t paid content. Though with the flowery praise to come it should be (see contacts below). However, this post doesn’t get too far into <em>why</em> Snowflake. Rather it explores <em>how</em> Snowflake. Nonetheless, we may need some justification.</p>
+
+<p>Snowflake’s real value is the <strong>reduction of non-value-adding complexity for the user</strong>. Putting useful things in your path and keeping anything and everything operationally complex out of your way. Simple as that. If you’ve used PostgreSQL then this shouldn’t feel too foreign, minus index maintenance, table locks, performance issues and upgrades. Pretty standard SQL otherwise, and a few new concepts.</p>
+
+<p>And you only pay for the capacity and performance you use.</p>
+
+<p>That’s it really.</p>
+
+<p>It is <em>just</em> a SQL database. A very fast one, that handles loads of data, and has lots of usability features. It stores data in a columnar way (rather than rows), which means it is very fast. But you’ll still be writing SQL queries, in a mostly familiar pleasant SQL syntax.</p>
+
+<p>The primary alternative to Snowflake in this context is Google Bigquery. I’m no expert, but you’d struggle to go wrong with either. Snowflake offers a choice of AWS, Azure or GCP for your horsepower, so that might be reason enough for you to choose Snowflake. At some point, it should start to become clear that Snowflake is just a clever interface for storage and computation built on commodity cloud infrastructure. Very clever. S3 buckets + EC2 for anyone feeling like they’d rather DIY this part, or build a competitor.</p>
+
+<p>Last part of the intro fanfare: Snowflake is a Data Platform. This is made clear in their recent manoeuvring into the crowded, polluted sea of Data Marketplaces, and a peek into the BI world, with their very simple new Dashboards tool. However, the most platformy move here is a direct integration with Salesforce. More on this in the closing.</p>
+
+<h2 id="context">Context</h2>
+
+<p>This post doesn’t get <em>too far</em> into the details of the doing, but rather points out things that are somewhat peculiar or unique to Snowflake. Things to be kept in mind when doing the initial deployment.</p>
+
+<p>The context also caters entirely towards doing your transforming tasks in a SQL transformation tool like <a href="https://dataform.co/?utm_source=groupby1.substack.com">Dataform</a> or <a href="https://getdbt.com/?utm_source=groupby1.substack.com">dbt</a>.</p>
+
+<p>The structure of this post will loosely follow the order in which you’ll encounter and want to consider various new concepts and features as you implement Snowflake.</p>
+
+<p>We will start with an intro to a Snowflake deployment. We’ll then apply some structure to loading, after getting the security and costs watertight we will finally set sail with some interesting new features and capabilities.</p>
+
+<h1 id="1-deployment">1. Deployment</h1>
+
+<p>As of publishing this, you can sign up and get started with a free (no credit card), month-long trial, which gets you floating.</p>
+
+<p>Once you’ve signed up, you’ll need a few things in place as part of the deployment. These include roles, users, databases and warehouses.</p>
+
+<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6935cff-ff66-4f5c-ae6a-8cee5110c5d9_1600x1067.jpeg"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e6935cff-ff66-4f5c-ae6a-8cee5110c5d9_1600x1067.jpeg" alt="" /> <style>a.image2.image-link.image2-971-1456 { padding-bottom: 66.68956043956044%; padding-bottom: min(66.68956043956044%, 971px); width: 100%; height: 0; } a.image2.image-link.image2-971-1456 img { max-width: 1456px; max-height: 971px; }</style></a></p>
+
+<h2 id="new-concepts">New Concepts</h2>
+
+<p>The new concepts introduced here are warehouses and credits.</p>
+
+<p><strong>/Warehouses</strong></p>
+
+<p>Essentially a warehouse is how you specify the <strong>power of compute</strong> that you use to run queries. This is interesting because you can assign a warehouse to a role. <code class="language-plaintext highlighter-rouge">TRANSFORM</code> roles can use a different warehouse to <code class="language-plaintext highlighter-rouge">REPORT</code> roles. This allows you to fine-tune your compute power and response time for various scenarios. Predictable power for <code class="language-plaintext highlighter-rouge">TRANSFORM</code>, snappy and responsive for <code class="language-plaintext highlighter-rouge">REPORT</code> to keep the end-users happy!</p>
+
+<p>Warehouses are NOT where you keep your data. Think of a warehouse like a sail that you hoist when the cold query winds blow from the East (or when the warm Summer trade-winds blow from the East depending on your preference).</p>
+
+<p>Practically, a role is granted privileges to use a warehouse in much the same way a role is granted privileges to access a database. A warehouse also needs to be specified whenever a connection is made to Snowflake.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grant all privileges on warehouse WAREHOUSE_REPORT 
+to role ROLE_REPORT;
+</code></pre></div></div>
+
+<p><strong>/Credits</strong></p>
+
+<p>You get billed based on your usage of credits.</p>
+
+<p>Credits are consumed by storage and warehouses.</p>
+
+<p>Every time* you start a warehouse, you pay per second in credits, and so credits are effectively your unit of currency.</p>
+
+<p>At the time of writing a credit is <a href="https://www.snowflake.com/pricing/?utm_source=groupby1.substack.com">$2-$3</a>, and negotiating that down when your annual contract value reaches ~$10k is the typical script.</p>
+
+<p>The outcome of this warehouse/credit scenario is you have <a href="https://www.snowflake.com/blog/understanding-snowflake-utilization-warehouse-profiling/?utm_source=groupby1.substack.com">a very granular cost breakdown</a> of your query costs.</p>
+
+<p><em>*Not every query starts a warehouse - see cached data section below.</em></p>
+
+<p><strong>Additional Notes:</strong></p>
+
+<ul>
+  <li>See a walkthrough of cost calculations, product tiers and implications <a href="https://www.tropos.io/blog/how-to-calculate-your-snowflake-monthly-cost/">here</a>.</li>
+</ul>
+
+<h2 id="permissions">Permissions</h2>
+
+<p>This is the <code class="language-plaintext highlighter-rouge">grant &lt;PERMISSION&gt; to &lt;ROLE&gt;</code> part of the database deployment process.</p>
+
+<p>I like to follow either one of the following two deployment patterns:</p>
+
+<ol>
+  <li>
+    <p>The <strong>Proof Of Concept</strong> (POC) keeps things as simple as possible, while still being stable and scalable.</p>
+  </li>
+  <li>
+    <p>The <strong>Production</strong> option adds some additional structure on top of the POC.</p>
+  </li>
+</ol>
+
+<h3 id="1-proof-of-concept">1. Proof of Concept</h3>
+
+<p>This setup doesn’t distinguish between <code class="language-plaintext highlighter-rouge">PROD</code> and <code class="language-plaintext highlighter-rouge">DEV</code>, and rather relies on branching features later on in the transformation, which is perfectly fine.</p>
+
+<p>At the core are the 3 roles, with each only having the permissions necessary to function, without the ability to interfere with the other roles’ domains.</p>
+
+<ul>
+  <li>
+    <p><strong>INGEST</strong></p>
+
+    <ul>
+      <li>
+        <p>Loads data</p>
+      </li>
+      <li>
+        <p>Can create schemas in <code class="language-plaintext highlighter-rouge">RAW</code> database</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>TRANSFORM</strong></p>
+
+    <ul>
+      <li>
+        <p>Creates transformation scripts</p>
+      </li>
+      <li>
+        <p>Can read data in <code class="language-plaintext highlighter-rouge">RAW</code></p>
+      </li>
+      <li>
+        <p>Can create schemas in <code class="language-plaintext highlighter-rouge">ANALYTICS</code></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>REPORT</strong></p>
+
+    <ul>
+      <li>Read-only access to <code class="language-plaintext highlighter-rouge">ANALYTICS</code></li>
+    </ul>
+  </li>
+</ul>
+
+<p>This is shown in the relationship diagram below, where connections indicate permissions assigned.</p>
+
+<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F69161c61-2125-4f33-b112-4517401729ed_1600x675.png"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/69161c61-2125-4f33-b112-4517401729ed_1600x675.png" alt="" /> <style>a.image2.image-link.image2-614-1456 { padding-bottom: 42.17032967032967%; padding-bottom: min(42.17032967032967%, 614px); width: 100%; height: 0; } a.image2.image-link.image2-614-1456 img { max-width: 1456px; max-height: 614px; }</style></a></p>
+
+<p>You’ll notice in the diagram that the <code class="language-plaintext highlighter-rouge">USER_REPORT</code> cannot access the <code class="language-plaintext highlighter-rouge">RAW</code> data, this is an entirely deliberate move towards ensuring that downstream tools cannot build a dependency on <code class="language-plaintext highlighter-rouge">RAW</code> data.</p>
+
+<p>For further clarification on how all this works, I’ve created a starter kit for Snowflake, which creates the above diagram exactly, ready for a POC. If you’re considering a Snowflake implementation, it is well worth an hour to take a look. Pull requests welcome!</p>
+
+<ul>
+  <li><a href="https://github.com/mattarderne/snowflake-starter">https://github.com/mattarderne/snowflake-starter</a></li>
+</ul>
+
+<h3 id="2-production">2. Production</h3>
+
+<p>The following configuration takes the basics from the <strong>Proof Of Concept</strong> and enhances them to include a more robust separation between <code class="language-plaintext highlighter-rouge">PROD</code> and <code class="language-plaintext highlighter-rouge">DEV</code>. There is a duplication of all entities with <code class="language-plaintext highlighter-rouge">_PROD</code> with a <code class="language-plaintext highlighter-rouge">_DEV</code> version (<code class="language-plaintext highlighter-rouge">_DEV</code> not shown in this diagram for simplicity) and distinct role breakdown for accessing Databases.</p>
+
+<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F71aa7043-46d8-4938-bf05-fa57c2b65b99_1652x1033.png"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/71aa7043-46d8-4938-bf05-fa57c2b65b99_1652x1033.png" alt="" /> <style>a.image2.image-link.image2-910-1456 { padding-bottom: 62.5%; padding-bottom: min(62.5%, 910px); width: 100%; height: 0; } a.image2.image-link.image2-910-1456 img { max-width: 1456px; max-height: 910px; }</style></a></p>
+
+<p>**Additional Notes: **</p>
+
+<ul>
+  <li>
+    <p>Snowflake case sensitivity is subtly <a href="https://github.com/mattarderne/snowflake-starter/blob/master/utils/case_sensitivity.sql">different to PostgreSQL</a>.</p>
+
+    <ul>
+      <li>
+        <p>Unquoted object identifiers are case-insensitive</p>
+      </li>
+      <li>
+        <p><code class="language-plaintext highlighter-rouge">“ANALYTICS” = ANALYTICS = analytics</code></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Create a user for every connecting system, and a user for every developer. This will enable you to <strong>track the source and cost of all queries</strong>.</p>
+  </li>
+  <li>
+    <p>If you already have a Snowflake database, you can visually analyse your setup with the <a href="http://snowflakeinspector.hashmapinc.com/?utm_source=groupby1.substack.com">snowflakeinspector.com</a>, great for tracking poorly configured snowflake permissions that you may inherit.</p>
+  </li>
+  <li>
+    <p>A very useful bit of code is the <strong><code class="language-plaintext highlighter-rouge">grant on future</code></strong> snippet, which allows you to grant all future tables in a schema with a certain permission.</p>
+
+    <p>grant usage on future SCHEMAS in database RAW to role TRANSFORM</p>
+
+    <p>grant select on future TABLES in database RAW to role TRANSFORM</p>
+  </li>
+</ul>
+
+<h1 id="2-extract-and-load-nuance">2. Extract and Load Nuance</h1>
+
+<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb12d25d5-57a8-45a1-9742-801d66c84d1e_1600x1157.jpeg"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b12d25d5-57a8-45a1-9742-801d66c84d1e_1600x1157.jpeg" alt="" /></a></p>
+
+<p><strong>/Loaders</strong></p>
+
+<p>If you are using <a href="https://stitchdata.com/?utm_source=groupby1.substack.com">Stitch</a>, <a href="https://fivetran.com/?utm_source=groupby1.substack.com">Fivetran</a> or similar, you can target your data warehouse at this point. Assign the tool the appropriate role, warehouse, database and schema as specified in the deployment script (<code class="language-plaintext highlighter-rouge">ROLE_INGEST, WAREHOUSE_INGEST, RAW</code>).</p>
+
+<p>Stitch will create a schema based on the name you give to the job, so stick with something scalable. I like <code class="language-plaintext highlighter-rouge">&lt;loader&gt;_&lt;source&gt;</code> format, so you’ll start with something like <code class="language-plaintext highlighter-rouge">STITCH_HUBSPOT</code>. It’s key to note that this means you can later pop out the stitch part for a <code class="language-plaintext highlighter-rouge">FIVETRAN_HUBSPOT</code> or an <code class="language-plaintext highlighter-rouge">ETL_HUBSPOT</code>.</p>
+
+<p><strong>/JSON</strong></p>
+
+<p>Managed ELT tools will load data as best as they can, typically as rows and columns, but often will insert your data as raw JSON into a single column. This is a good thing. It allows you to become familiar with the incredibly useful Snowflake JSON SQL syntax.</p>
+
+<p>If you write any custom ELT scripts, ensure when loading data to load all data as JSON variant type. This is the crux of ELT. Schemaless loading means your data lands without any notion of a schema, and so you can define the schema later on in one go in the transformation step. This can be seen as a big step, but it helps to be able to define ALL transformations in the transformation stage, and not have to go back to your Python scripts to add new fields.</p>
+
+<p><strong>Additional Notes:</strong></p>
+
+<ul>
+  <li>Start with a tutorial for <a href="https://calogica.com/sql/2018/12/17/parsing-nested-json-snowflake.html/?utm_source=groupby1.substack.com">handling JSON in Snowflake</a>, just to get the <a href="https://interworks.com/blog/hcalder/2018/06/19/the-ease-of-working-with-json-in-snowflake/?utm_source=groupby1.substack.com">basics</a>.</li>
+</ul>
+
+<h1 id="3-secure-the-perimeter">3. Secure the perimeter</h1>
+
+<p>At this stage there is a risk of moving too fast, and that awkward speed wobble is avoided by taking stock and balancing the books.</p>
+
+<p>The pre-retrospective things to attend to are Costs and Sensitive Data.</p>
+
+<h2 id="costs">Costs</h2>
+
+<p>Snowflake is a powerful tool, and with the largest warehouse running into the thousands of dollars <em>per hour,</em> you want to do two things:</p>
+
+<p><strong>/Set a budget and limit</strong></p>
+
+<p>Determining what you are willing to spend in a month is a good start, and setting a policy to alert you at various increments of that amount will avoid a broadside attack from Finance. Setting the policy to disable future queries across specific warehouses or all of them is a good trip switch to ensure that you aren’t caught at sea.</p>
+
+<p>**/Get alerted **</p>
+
+<p>Worse than running up a large bill (depending on who you ask) would be for your credit limit policy to come into play the moment you click run when demo’ing your fancy analytics to a client or stakeholder.</p>
+
+<p>For this reason, keeping close tabs on spikes in credit usage and becoming familiar with how and where your credits are going is very high on your new agenda. Remember this is SaaS, i.e. <em>Operational Expense</em>. <strong>All the costs lay ahead of you on this one.</strong></p>
+
+<p><a href="https://github.com/snowflakedb/SnowAlert">SnowAlert</a> is a tool that Snowflake maintains. I’ve adopted some of the queries as part of my suggested monitoring in the <a href="https://github.com/mattarderne/snowflake-starter/#snowalert">Snowflake-Starter</a> repo. The queries look for spending spikes across the infrastructure and will return results only if they detect a spike.</p>
+
+<p>Last thing on cost management and this is more of an opinion.</p>
+
+<p>Historically, database resources are specified against a budget for their max expected load. This left lots of performance headroom for the median query. One could view Snowflake costs with some equivalency to this performance headroom, in that a Snowflake query could run faster if you assign it a larger warehouse at increased cost.</p>
+
+<p>However <strong>there is a premium being paid for the flexibility</strong>, and so it benefits you to manage your fleet of warehouses carefully, lest they turn on you. Snowflake is an operational expense. This is a subtle shift. The crux is that every credit spent should “deliver value” in a somewhat meaningful way.</p>
+
+<p><strong>Additional Notes:</strong></p>
+
+<ul>
+  <li>
+    <p>Snowflake caches results of queries, meaning that you won’t get charged for queries that hit the cache. This requires some nuance when modelling credit intensive processes like incremental updates. See this <a href="https://medium.com/hashmapinc/30-second-snowflake-cloud-data-warehouse-cheat-sheet-e72c42b863a4">blog</a> for a run-through.</p>
+  </li>
+  <li>
+    <p>Snowflake charges lightly for access to metadata queries, this is because each time your transform tool runs, it queries the schema definition <em><strong>heavily</strong></em>. This was free, it now isn’t. The cost is negligible but it is worth noting what is going on.</p>
+  </li>
+</ul>
+
+<h2 id="sensitive-data">Sensitive Data</h2>
+
+<p><strong>/Masking</strong></p>
+
+<p>Snowflake’s <strong>“Dynamic Data Masking”</strong> feature isn’t quite as dynamic as it sounds but is a welcome addition. You’ll <strong><code class="language-plaintext highlighter-rouge">create or replace masking policy EMAIL_MASK</code></strong> and attach that to a role. See this <a href="https://www.youtube.com/watch?v=ByyfTAj97xY">video</a> for an explanation. This is a helpful addition to be able to define masks at an object level. This is a new (enterprise only) feature and works in conjunction or in addition to the <a href="https://community.snowflake.com/s/article/Methods-for-Securing-PII-Data-in-Snowflake/?utm_source=groupby1.substack.com">standard masking features</a>.</p>
+
+<p><strong>/Access Control</strong></p>
+
+<p>Enable a <a href="https://docs.snowflake.com/en/user-guide/network-policies.html">network policy</a> that whitelists the IPs of Stitch, your BI tool, VPN etc.</p>
+
+<p>Enable <a href="https://docs.snowflake.com/en/user-guide/ui-preferences.html#enrolling-in-mfa-multi-factor-authentication">multi-factor authentication</a> (MFA) with the <a href="https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app">Duo app</a>. Duo is GREAT. It prompts for a password protected authorisation on your phone’s home screen. No excuses. All users assigned the <code class="language-plaintext highlighter-rouge">ACCOUNTADMIN</code> role should also be required to use MFA.</p>
+
+<h1 id="4-setting-sail">4. Setting Sail</h1>
+
+<p>Snowflake at this point, like setting sail, depends on where you want to go. In my <a href="https://groupby1.substack.com/p/data-as-a-utility-tool">previous post</a>, I outlined what I’d do next, and it looks something like setting up a few data loading tools, writing transforms in <a href="https://dataform.co/?utm_source=groupby1.substack.com">Dataform</a> and then distributing the results in an analytics tool. If you haven’t, <a href="https://groupby1.substack.com/p/data-as-a-utility-tool">please check it out</a>.</p>
+
+<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fee90038c-bd14-472b-87f7-301f36998802_1600x1066.jpeg"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ee90038c-bd14-472b-87f7-301f36998802_1600x1066.jpeg" alt="" /> <style>a.image2.image-link.image2-970-1456 { padding-bottom: 66.62087912087912%; padding-bottom: min(66.62087912087912%, 970px); width: 100%; height: 0; } a.image2.image-link.image2-970-1456 img { max-width: 1456px; max-height: 970px; }</style></a></p>
+
+<p>I will not be overemphasising this section, but rather point out a few of the most interesting features that fall under <strong>analysing data</strong>. You could at this point treat Snowflake like you would a very tiny <code class="language-plaintext highlighter-rouge">t2.tiny</code> PostgreSQL instance, forget about it (other than the $) and continue.</p>
+
+<p>New features in themselves are not always so interesting, but what is interesting is what they enable when combined with existing features. As in technology, so in databases.</p>
+
+<p><strong>/Swap With</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alter database PROD swap with STAGE
+</code></pre></div></div>
+
+<blockquote>
+  <p>Swaps all content and metadata between two specified tables, including any integrity constraints defined for the tables. Also swap all access control privilege grants. <strong>The two tables are essentially renamed in a single transaction</strong>.</p>
+</blockquote>
+
+<p>It also enables a Blue/Green deployment, which in simple terms means: Create a new database with your changes (<code class="language-plaintext highlighter-rouge">STAGE</code>), run tests on that, if they pass, swap it with <code class="language-plaintext highlighter-rouge">PROD</code>. If an hour later you realise you’ve deployed something terrible, swap it back.</p>
+
+<p><strong>/Zero copy clone</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>create or replace table USERS_V2 clone USERS
+</code></pre></div></div>
+
+<p>Create an instant clone of Tables, Schemas, and Databases with zero cost (until you change the data). Great for testing, development and deployment.</p>
+
+<p><strong>/Time Travel</strong></p>
+
+<p>Combining the clone function, one can <a href="https://docs.snowflake.com/en/user-guide/data-time-travel.html">time travel to a table</a> as it existed at a specified time (1 day back on the standard plan, 90 days on enterprise). The command below will recover the schema at the timestamp (wayward <code class="language-plaintext highlighter-rouge">DROP</code> perchance).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>create schema TEST_RESTORE clone TEST at (timestamp=&gt; to_timestampe(40*365*86400));
+</code></pre></div></div>
+
+<p><strong>/External functions</strong></p>
+
+<p>Run a call to a <a href="https://docs.snowflake.com/en/sql-reference/external-functions-introduction.html">REST API</a> in your SQL. Great for those pesky ML functions.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>select zipcode_to_city_external_function(ZIPCODE)
+from ADDRESS;
+</code></pre></div></div>
+
+<h1 id="closing-meta-industry-thoughts">Closing Meta Industry Thoughts</h1>
+
+<p>Snowflake is building a platform, meaning they are building the one-stop-shop for your data needs. The notion of Data Loading is likely going to become more fringe. Snowflake has already moved in this direction with <a href="https://blocksandfiles.com/2020/06/04/snowflake-salesforce-integration-tools/?utm_source=groupby1.substack.com">Salesforce</a>.</p>
+
+<blockquote>
+  <p>Einstein Analytics Output Connector for Snowflake lets customers move their Salesforce data into the Snowflake data warehouse alongside data from other sources. Joint customers can consolidate all their Salesforce data in Snowflake. Automated data import keeps the Snowflake copy up to date.</p>
+</blockquote>
+
+<p>This off-the-shelf analytics is a reasonable next step, perhaps in this case due to investment by Salesforce into Snowflake, but that aside, the data space is finding where lie its <em><strong>layers of abstraction</strong></em>, and this is shown in these industry moves.</p>
+
+<p>Snowflake is building a platform, doing it well, and charging you for it. Engineering time remains expensive, and so outsourcing this to Snowflake’s managed platform will be a welcome relief. However there are no free lunches, and Snowflake is building something bigger than a data warehouse. What this means is that if you take too much, you’ll be stuck with too much.</p>
+
+<p>Echoing <a href="https://www.dremio.com/getting-locked-in-and-locked-out-with-snowflake/?utm_source=groupby1.substack.com">Dremio</a>, there is always a thought towards a modular data architecture <em><strong>“that’s built around an open cloud data lake* (e.g S3) instead of a proprietary data warehouse”</strong>.</em> I generally agree with this premise. Snowflake is built on top of AWS or Azure or GCP, and so is (was) a thin layer on top of raw storage and compute.</p>
+
+<p><em>* More on <a href="https://fivetran.com/blog/when-to-adopt-a-data-lake//?utm_source=groupby1.substack.com">data lakes here</a></em></p>
+
+<p>Snowflake is marching towards the abstractions seen in Software Engineering, where every job is a feature for them to build. Snowflake has built Data Warehouse Engineer, it is building ETL Engineer <em>and will likely build Data Engineer in some version soon</em>.</p>
+
+<p><a href="https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf206714-d7ad-4e9f-a72e-41d12b408620_1600x1068.jpeg"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/cf206714-d7ad-4e9f-a72e-41d12b408620_1600x1068.jpeg" alt="" /> <style>a.image2.image-link.image2-972-1456 { padding-bottom: 66.75824175824175%; padding-bottom: min(66.75824175824175%, 972px); width: 100%; height: 0; } a.image2.image-link.image2-972-1456 img { max-width: 1456px; max-height: 972px; }</style></a></p>
+
+<blockquote>
+  <p>“It is not the ship so much as the skilful sailing that assures the prosperous voyage.” - George William Curtis</p>
+</blockquote>
+
+<p><strong>Please comment if you have any feedback on any of this, I aim to improve with your help.</strong></p>
+
+<p>Thanks to Dan Lee for reviewing and contributing to this post.</p>
+
+<div>
+
+* * *
+
+</div>
+
+<p><em>Please consider subscribing for more on the subject of data systems thinking</em></p>
+
+<p><a href="https://groupby1.substack.com/subscribe?"><span>Subscribe now</span></a></p>
+
+<p><em>What is <a href="https://groupby1.substack.com/about">group by 1</a></em></p>
+
+<p><em>Who is <a href="https://rdrn.dev/?utm_source=groupby1.substack.com">Matt Arderne</a></em></p>
+:ET

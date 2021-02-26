@@ -1,0 +1,51 @@
+I"�<!-- <img name="absurd.design" src="/assets/images/ad_blog.png" alt=""/> -->
+
+<blockquote>
+  <p>I aspire to improve my ability to communicate through writing. This is the workshop.</p>
+</blockquote>
+
+<h2 id="group-by-1"><a href="https://groupby1.substack.com/">group by 1</a></h2>
+<p>My thoughts on modern data analytics systems.  Describe your day-job stuff.</p>
+
+<p>Topics cover the intersection of Data Engineering and Data Analytics.</p>
+
+<h2 id="matts-world-view"><a href="https://rdrn.substack.com">Matt’s World View</a></h2>
+
+<p>General writing, expanding my understanding of the world. This is very experimental.</p>
+
+<hr />
+
+<h1 id="selected-posts">Selected posts</h1>
+
+<h2 id="snowflake-field-notes"><a href="/snowflake-field-notes/" rel="permalink">Snowflake Field Notes</a></h2>
+<p><i><time datetime="">12 July 2020</time> - group by 1  </i></p>
+
+<blockquote>
+  <p class="archive-item-excerpt" itemprop="description"><p>This is a technical intro to deploying Snowflake data warehouse, as a follow on from my previous post. This may be useful if you have decided to implement Snowflake.</p>
+</p>
+</blockquote>
+
+<hr />
+
+<h2 id="data-as-a-utility-tool"><a href="/data-as-a-utility-tool/" rel="permalink">Data as a Utility Tool</a></h2>
+<p><i><time datetime=""> 7 May 2020</time> - group by 1  </i></p>
+
+<blockquote>
+  <p class="archive-item-excerpt" itemprop="description"><p>Within the companies I have worked for and plan on working for, uncertainty is a common thread. Sales may continue to accelerate, funding should land next quarter, we hope to keep in touch. The uncertainty may be more concrete. We should change...
+</p></p>
+</blockquote>
+
+<hr />
+
+<h2 id="the-crash-of-rent-to-let"><a href="/The-crash-of-rent-to-let/" rel="permalink">The crash of rent-to-let</a></h2>
+<p><i><time datetime="">28 March 2020</time> - Matt’s World View  </i></p>
+
+<blockquote>
+  <p class="archive-item-excerpt" itemprop="description"><p>This time, an investigation into Airbnb and the property market, and looking for hopeful signs in the virus outbreak..</p>
+</p>
+</blockquote>
+
+<hr />
+
+<p><strong>All posts will be copied <a href="/writing_archive">here</a> from Substack in due course.</strong></p>
+:ET

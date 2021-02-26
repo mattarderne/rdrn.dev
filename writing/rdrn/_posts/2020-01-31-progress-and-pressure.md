@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Progress and Pressure
 date: '2020-01-31 19:17:00'
 excerpt: "Fleeting opinions on progress."

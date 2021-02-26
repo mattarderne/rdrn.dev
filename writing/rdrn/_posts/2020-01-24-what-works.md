@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: What works at work
 date: '2020-03-6 19:17:00'
 excerpt: "China, China again, and what works."
