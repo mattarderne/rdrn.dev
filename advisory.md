@@ -20,7 +20,8 @@ I'm available for consulting and remote or in person development.
 <h2>Please get in touch via the links on the left.</h2>
 
 
-# Tech Domains / Services
+
+
 
 
 
