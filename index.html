@@ -17,16 +17,17 @@ layout: home
   </style>
   
   <div class="container">
-    <!-- <i><h1>MATT ARDERNE</h1></i> -->
-    <h1>data <i>products</i></h1>
-
-    <p style="text-decoration: underline;"><h1 href="/advisory/">advisory</h1></p>
-    <i><h1>&</h1></i>
-    <p style="text-decoration: underline;"><h1 href="/engineering/">engineering</h1></p>
-    <br>
-    <br>
-    <h3>Let's chat data</h3>
+    <!-- <i>MATT ARDERNE</i> -->
     
+    <h1>data <i>products</i></h1>
+    <h1><a href="{{ site.baseurl }}/advisory">advisory</a></h1> 
+    <i><h1>&</h1></i>
+    <h1><a href="{{ site.baseurl }}/engineering">engineering</a></h1> 
+    <br>
+    
+    <h3>Let's chat data</h3>
+    <br>
+    <br>
     
     
 </div>
@@ -46,6 +47,8 @@ layout: home
     <i>{{ site.company_address }}</i>
     <br>
     <b>{{ site.buzzwords }}</b>
-
+    <img src="{{ site.avatar }}" alt="{{ site.title }}" class="author-avatar-footer" itemprop="image">
+    <h2>about <a href="{{ site.baseurl }}/about">matt arderne</a></h2> 
     
-  </div>
+    
+</div>

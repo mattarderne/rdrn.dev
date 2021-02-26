@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Writing
+title: writing
 excerpt: "Collection of Writing."
 exclude: false
 ---

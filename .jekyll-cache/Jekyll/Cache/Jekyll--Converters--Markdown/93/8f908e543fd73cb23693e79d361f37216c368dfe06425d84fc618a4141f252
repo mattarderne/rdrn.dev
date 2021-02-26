@@ -1,14 +1,4 @@
-I"K	<blockquote>
-  <p>Hi, my name is Matt, I’m an experienced engineer with a proven track record deploying technical systems and driving business value.</p>
-
-  <p>Please get in touch via the links on the left.</p>
-
-  <p>I’m currently based in London, UK.</p>
-</blockquote>
-
-<p><br /></p>
-
-<p>I like to treat this page as a bit of a personal garden. I’ve got a few links below, mostly related to things I’m currently interested in or have been interested in. Feel free to take a look around.</p>
+I"�<p>I like to treat this page as a bit of a personal garden. I’ve got a few links below, mostly related to things I’m currently interested in or have been interested in. Feel free to take a look around.</p>
 
 <blockquote>
   <p>I want to putter about, feel connected to the process, and have fun doing so</p>
@@ -22,6 +12,7 @@
   <li><a href="/surfing/">Surfing</a> - Every surfboard I’ve ever owned</li>
   <li><a href="/sports/">Media</a> - Videos of me doing things</li>
   <li><a href="https://film.rdrn.dev/film">Photography</a> - Dragging around a film camera for fun and personal development…</li>
+  <li><a href="https://food.rdrn.dev/">Recipe Book</a> - Some great stuff in there, ask me about my bread!</li>
 </ul>
 
 <h3 id="my-talented-brothers">My talented brothers</h3>
@@ -38,6 +29,10 @@
 <p>A few projects that I am working on and developing. In order of interest:</p>
 <ol>
   <li><a href="http://reinform.io">reinform.io</a> - Working with a friend on a maths driven solution to misinformation.</li>
+</ol>
+
+<h2 id="old-projects">Old projects</h2>
+<ol>
   <li><a href="http://rdrn.com/waves">waves.dev</a> - Involving waves and neural nets, currently in <em>stealth</em>!</li>
   <li><a href="https://mattarderne.github.io/CommitLearn/">CommitLearn</a> - This is an experimental audio learning experience using podcasts!</li>
   <li><a href="https://mattarderne.github.io/concentrait/">concentrait</a> - The learning optimization API</li>
