@@ -2,14 +2,14 @@
 layout: single
 title: Writing
 excerpt: "Collection of Writing."
-exclude: true
+exclude: false
 ---
 
 <!-- <img name="absurd.design" src="/assets/images/ad_blog.png" alt=""/> -->
 
-> I aspire to improve my ability to communicate through writing. This is the workshop. 
+> I'm working on my ability to communicate through writing. This is the workshop. 
 
-## [group by 1](https://groupby1.substack.com/)
+## [groupby1.substack.com/](https://groupby1.substack.com/)
 My thoughts on modern data analytics systems.  Describe your day-job stuff.
 
 Topics cover the intersection of Data Engineering and Data Analytics. 

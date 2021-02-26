@@ -11,7 +11,9 @@ location                 : "London, UK"
 github                   : "mattarderne"
 linkedin                 : "m-ard"
 email                    : "matt@rdrn.dev"
-buzzwords                : "Fintech • Edtech • Data Engineering • Data Strategy • ML & AI"
+buzzwords                : "Fintech • Edtech • Data"
+company                  : "RDRN.DEV LTD UK - 12718076"
+company_address          : "20 Wenlock Road, London, England, N1 7GU"
 aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value."
 
 plugins:

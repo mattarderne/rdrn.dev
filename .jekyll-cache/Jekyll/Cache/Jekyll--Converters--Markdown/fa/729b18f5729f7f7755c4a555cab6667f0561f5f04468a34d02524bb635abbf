@@ -1,0 +1,75 @@
+I"O<h1>Helping companies scale by providing data expertise.</h1>
+
+<p>I have a passion for data, and deep insight into emerging technology. With these, I have enabled businesses to grow by unlocking the value in their data, and aligning their tech strategy with the opportunities available to a data driven company.
+<br />
+<br />
+Allow me to help you unlock the hidden value in your business, either through helping <br /><b>define your strategy</b>, or <b>implement technology </b>to help you execute against and exceed your targets.</p>
+
+<p>I have significant expertise in SME businesses - funding, data, accounting, CRM, ERP, tech, strategy, growth.
+<br />
+<br />
+I’m available for consulting and remote or in person development.</p>
+
+<h1 id="tech-domains--services">Tech Domains / Services</h1>
+
+<h2 id="1-data">1. Data</h2>
+
+<p>I work as a Head of Data, specializing in Analytics and Artificial Intelligence, and with a strong foundational basis in Data Warehousing &amp; Data Integration. This means I am very comfortable across the data systems life cycle with Python, ML, Neural Nets, SQL, ETL and general Data Wrangling. I’m also comfortable with Devops and managing AWS infra, BI tools such as Tableau and Looker <a href="https://groupby1.substack.com/p/data-as-a-utility-tool">and architecting these systems</a>.</p>
+
+<p>I also offer hands-on <a href="/training/">training</a> in all matters relating to Data.</p>
+
+<ul>
+  <li>Data Engineering
+    <ul>
+      <li>Denodo Data Virtualization</li>
+      <li>Snowflake, Redshift, PostgreSQL &amp; MySQL</li>
+      <li>dbt &amp; Dataform</li>
+      <li>Data/Dev Ops
+        <ul>
+          <li>Logging</li>
+          <li>AWS EC2/S3/ElasticBeanstalk</li>
+          <li>Docker</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Business Analytics
+    <ul>
+      <li>Looker &amp; Tableau</li>
+      <li>Metabase</li>
+      <li>PowerBI</li>
+    </ul>
+  </li>
+  <li>Predictive Models
+    <ul>
+      <li>Pytorch</li>
+      <li>Credit Rating models
+        <ul>
+          <li>Probability of Default</li>
+          <li>Recovery Rate</li>
+        </ul>
+      </li>
+      <li>Logistic Regression &amp; XGBoost</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2-business">2. Business</h2>
+
+<p>I am an Industrial Engineer by training, and I began my career in ERP implementation consulting before moving into the realm of Data. Thus I have an excellent understanding of business processes.</p>
+
+<ul>
+  <li>Acumatica ERP</li>
+  <li>Salesforce, Hubspot CRM</li>
+</ul>
+
+<h2 id="3-software">3. Software</h2>
+<p>I have managed and successfully implemented Data Integration, Data Reporting, CRM and ERP tools, as well as been part of the development teams of bespoke software solutions.</p>
+
+<ul>
+  <li>Docker, Github, Jenkins</li>
+  <li>AWS EC2, RDS, Lambda, Elastic Beanstalk</li>
+</ul>
+
+<p><img name="absurd.design" src="/assets/images/ad_idea.png" alt="" /></p>
+:ET

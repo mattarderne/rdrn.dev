@@ -1,35 +1,24 @@
 ---
 layout: single
-title: About
-excerpt: {{ site.aboutme }} 
+title: about
+excerpt: 
 exclude: true
 ---
 
 
-> This page is a quick introduction to my professional and personal interests.
 
-{{ site.aboutme}}
-<br>
-<br>
-I enjoy helping businesses drive value from their people, systems and processes using data and modern cloud systems. Analytics Engineering is the closest approximation.
-<br>
-<br>
-I have significant expertise in SME businesses - funding, data, accounting, CRM, ERP, tech, strategy, growth.
-<br>
-<br>
-<!-- I'm available for consulting and remote or in person development. -->
-<br>
 
-Please get in touch via the links on the left.
-<br>
-I'm currently based in {{ site.location }}. 
-<br>
+I like to treat this page as a bit of a personal garden. I've got a few links below, mostly related to things I'm currently interested in or have been interested in. Feel free to take a look around.
+
+> I want to putter about, feel connected to the process, and have fun doing so
 
 ### My personal pages:
 
-* [Sailing Blog](/sailing/)
-* [Sports Media](/sports/)
-* [Photography](https://film.rdrn.dev/film)
+* [Writing](/writing/) - Some writing related to work, and some more general thoughts
+* [Sailing](/sailing/) - Some sailing pics and a logbook
+* [Surfing](/surfing/) - Every surfboard I've ever owned
+* [Media](/sports/) - Videos of me doing things
+* [Photography](https://film.rdrn.dev/film) - Dragging around a film camera for fun and personal development...
 
 ### My talented brothers
 
@@ -37,3 +26,14 @@ If you are in the market for someone smart but I don't quite match up, please ta
 
 * [Chris](https://rdrn.me/) - intersection of data science and energy access
 * [Andrew](https://github.com/zoomie) - Python, go, algorithms, concurrency 
+
+# Projects
+
+A few projects that I am working on and developing. In order of interest:
+1. [reinform.io](http://reinform.io) - Working with a friend on a maths driven solution to misinformation.
+
+## Old projects
+1. [waves.dev](http://rdrn.com/waves) - Involving waves and neural nets, currently in _stealth_!
+1. [CommitLearn](https://mattarderne.github.io/CommitLearn/) - This is an experimental audio learning experience using podcasts!
+1. [concentrait](https://mattarderne.github.io/concentrait/) - The learning optimization API
+1. [kaya.chat](https://mattarderne.github.io/kaya.chat/) - A mentorship & student support service, facilitating & automating mentorship, guidance networks and informed support

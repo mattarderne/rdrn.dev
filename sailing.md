@@ -1,6 +1,6 @@
 ---
 layout: single
-title: sailing
+title: 
 excerpt: "I have spent most of my life living near the sea, and have spent a few years working on sailing and motor yachts.
 This page gives a brief overview of the time I've spent on the sea or at sea, and is intended to be a personal record and CV."
 exclude: true
@@ -12,22 +12,22 @@ I have spent most of my life living near the sea, and have spent a few years wor
 This page gives a brief overview of the time I've spent on the sea or at sea, and is intended to be a personal record and CV.
 
 # Details 
-**Location**: {{ site.location }}
+```
+Location: {{ site.location }}
+Profession: Data Engineer
+Nationality: South African
 
-**Profession**: [Data Engineer](https://rdrn.dev)
-
-**Nationality**: South African
-
-**Qualifications**: 
+Qualifications:
 * Day Skipper
 * Yacht Rating
 * Powerboat II
 * STCW95 (expired)
 
-**Sea Miles**: 
+Sea Miles:
 * Motor: ~5000nm
 * Sail: ~3000nm 
 * Offshore Racing: ~1000nm
+```
 
 **Crewing Profiles:** 
 
@@ -46,75 +46,70 @@ This page gives a brief overview of the time I've spent on the sea or at sea, an
 
 
 [fastnet]: /assets/photos/sailing/fastnet_start.jpg
-RORC Fastnet Start 2019.
 ![fastnet][fastnet]
+_2019 - RORC Fastnet Start_
 
 [channel]: /assets/photos/sailing/channel_race.jpg
-RORC Channel Race 2019.
 ![fastnet][channel]
+_2019 - RORC Channel Race_
 
 [jt1]: /assets/photos/sailing/jt1.png
-Racing on Jybe Talkin, 2019 Warsash Spring Series.
 ![Grinding when told][jt1]
+_2019 - Racing on Jybe Talkin, Warsash Spring Series_
 
-Racing on Sweat Pea, 2019 JOG Nab Tower.
 ![Railmeat](/assets/photos/sailing/nab1.png)
+_2019 - Racing on Sweat Pea, JOG Nab Tower._
 
-Racing on board SY Avel, 2008 Med regatta circuit.
-![](/assets/photos/sailing/avel1.jpg)
+![](/assets/photos/sailing/avel1.jpg){: width="1000" }
+_2008 - Racing on board SY Avel, Med regatta circuit_
 
-![](/assets/photos/sailing/avel2.jpg)
+![](/assets/photos/sailing/avel2.jpg){: width="1000" }
+_2008 - Racing on board SY Avel, Med regatta circuit_
 
-![](/assets/photos/sailing/avel3.jpg)
+![](/assets/photos/sailing/avel3.jpg){: width="1000" }
+_2008 - Racing on board SY Avel, Med regatta circuit_
 
-![](/assets/photos/sailing/avel4.jpg)
+![](/assets/photos/sailing/avel4.jpg){: width="1000" }
+_2008 - Racing on board SY Avel, Med regatta circuit_
 
-![](/assets/photos/sailing/avel6.jpg)
+![](/assets/photos/sailing/avel6.jpg){: width="1000" }
+_2008 - Racing on board SY Avel, Med regatta circuit_
 
-Avel support vessel, SY Creole.
-![](/assets/photos/sailing/creole1.jpg)
+![](/assets/photos/sailing/creole1.jpg){: width="1000" }
+_2008 - Avel support vessel, SY Creole_
 
-![](/assets/photos/sailing/creole4.jpg)
+![](/assets/photos/sailing/creole4.jpg){: width="1000" }
+_2008 - Avel support vessel, SY Creole_
 
-![](/assets/photos/sailing/creole5.jpg)
+![](/assets/photos/sailing/creole5.jpg){: width="1000" }
+_2008 - Avel support vessel, SY Creole_
 
-![](/assets/photos/sailing/creole6.jpg)
+![](/assets/photos/sailing/creole6.jpg){: width="1000" }
+_2008 - Avel support vessel, SY Creole_
 
 ## Cruising
-Charter of a small Beneteau using Click&Boat in Marseille.
-![](/assets/photos/sailing/bandol.jpg)
 
-![](/assets/photos/sailing/bandol3.jpg)
+![](/assets/photos/sailing/bandol.jpg){: width="1000" }
+_2020 - Charter of a small Beneteau using Click&Boat in Marseille_
+![](/assets/photos/sailing/bandol3.jpg){: width="1000" }
+_2020 - Charter of a small Beneteau using Click&Boat in Marseille_
 
 
-## Surfing
-
-I grew up surfing in South Africa, however the below pics are from Indonesia.
-
-![](/assets/photos/sailing/surf1.jpg)
-
-![](/assets/photos/sailing/surf2.jpg)
-
-## Kite Surfing
-
-Kitesurfing and cable wakeboarding have some similiarities. I'm fascinated by foils and would like to try kitesuring with a foil board.
-![](/assets/photos/sailing/kite.jpg)
-
-![](/assets/photos/sailing/cable.jpg)
 
 ## Professional
 
 What $300 000 per week will get you. An interesting industry to have experienced, but I'm not rushing back.
-![](/assets/photos/sailing/bf2.jpg)
+![](/assets/photos/sailing/bf2.jpg){: width="1000" }
+_2014 - mv big fish_
 
 ## Inspiration
-![](/assets/photos/sailing/nice.jpg)
+![](/assets/photos/sailing/nice.jpg){: width="1000" }
 
-![](/assets/photos/sailing/nice2.jpg)
+![](/assets/photos/sailing/nice2.jpg){: width="1000" }
 
-![](/assets/photos/sailing/nice3.jpg)
+![](/assets/photos/sailing/nice3.jpg){: width="1000" }
 
-![](/assets/photos/sailing/nice4.jpg)
+![](/assets/photos/sailing/nice4.jpg){: width="1000" }
 
 
 <img name="absurd.design" src="/assets/images/ad_landing.png" alt=""/>

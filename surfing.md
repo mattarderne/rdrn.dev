@@ -1,6 +1,6 @@
 ---
 layout: single
-title: surfing
+title: 
 excerpt: "Surf related snippet"
 exclude: true
 ---
@@ -8,12 +8,13 @@ exclude: true
 ![2021](/assets/photos/surfing/2021-3.jpg){: width="1000" }
 
 
-This page has some snippets about my surfing related interests.
+This page has some snippets related to my surfing interests.
 
 ## Misc info
+```
 * Weight ~72kg 
 * Height 175cm
-
+```
 
 
 
