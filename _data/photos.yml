@@ -1,13 +1,100 @@
-- src: /assets/photos/kite.jpg
-  date: March 2017
-  caption: Kitesurfing in South Africa
-  tag: sailing
-- src: /assets/photos/2017-12-05.jpg
-  date: March 2017
-  caption: Grinding a kite in the Warsash Series
-  tag: b&w
-- src: /assets/photos/jt1.png
-  date: March 2017
-  caption: Jybe Talking
-  tag: sailing
-
+- src: /assets/photos/surfing/2021-2.png
+  date: 2021
+  caption: Pyzel phantom 6'0 32L 
+  description: This board has been really good so far, paddles better than I expected and feels great in better waves. Doesn't hold a rail in very big waves as I discovered at Killers in December 2020.
+  tag: surfboard
+- src: /assets/photos/surfing/2021.png
+  date: 2021
+  caption: Lost Bean Bag 5'8  22.5  2.75  41L 
+  description: Great in _VERY_ small waves, has a massively wide tail so really struggles in anything bigger than waist high, and especially bad in hollow waves. Very fun for waves that would otherwise be great on a longboard, and paddles incredibly well for the size. Have bought quad rear fins to try out, as this doesn't feel great as a thruster 
+  tag: surfboard
+- src: /assets/photos/surfing/2020.png
+  date: 2020
+  caption: SkinDog 6'0 x 21 x 2.5 35L 
+  description: This board was super fun at The Wave artificial wave. It is one of the rental boards, and thankfully available. It definitely helped to have the extra volume as the fresh water isn't very bouyant and is freezing cold, so extra neoprene means you need the volume. The 2+1 fin configuration is great for loosening the board up, as you don't need the hold in the very weak waves they hadn't enabled Advanced+ so the wave was tiny. Would really like to get one of these for weaker surf days.
+- src: /assets/photos/surfing/2020-3.png
+  date: 2020
+  caption: Pyzel JJF Slab 2.0 - 6'2	20.25	2.5	34.70L 
+  description: This board went well in medium quality Cape Town surf. Haven't really surfed it in great surf, but feels maybe too high performance for Cape Town surf (which is generally average IMO).
+  tag: surfboard
+- src: /assets/photos/surfing/2020-2.png
+  date: 2020
+  caption: The Wave rental board - 6'6 37L 
+  description: A boat. Terrible, huge board. Was running late to the session and had to grab whatever was left over.
+  tag: surfboard
+- src: /assets/photos/surfing/2020-4.png
+  date: 2020
+  caption: Greg Smith retro 6'1 x 19 x 2.8? 
+  description: Funky retro replica of the original Simon Anderson Thruster. Really quite hard to surf, very sensitive to back foot weighting, doesn't really generate speed and hard to turn. 
+  tag: surfboard
+- src: /assets/photos/surfing/2019.png
+  date: 2019
+  caption: Torq Fish Quad 6'0 x 20 1/2 x 2 1/2 	36L
+  description:  Super fun rental board for morocco trip, goes really well down the line in the Morocco point breaks
+  tag: surfboard
+- src: /assets/photos/surfing/2019-2.png
+  date: 2019
+  caption: Torq Fish Quad 6'0 x 20 1/2 x 2 1/2 	36L
+  description:  Super fun rental board for morocco trip, goes really well down the line in the Morocco point breaks
+  tag: surfboard
+- src: /assets/photos/surfing/2016.png
+  date: 2016
+  caption: Fishstix 6.3 19.5 2.75 34 L 
+  description: Fun standard thruster for the smaller days at Seal Point. My first board with LOTS of volume. Great decision, never looked back.
+  tag: surfboard
+- src: /assets/photos/surfing/2015-2.jpg
+  date: 2015
+  caption: Clayton Jester 5'10 x 19 x 2 38  28L
+  description: This was too small. Fun at huge days at Llandudno, but otherwise too little volume. Really struggled. Creased it duckdiving a monster at Llandudno 
+  tag: surfboard
+- src: /assets/photos/surfing/2014.png
+  date: 2014
+  caption: Dutchie 6’2 18.1/2 2./1/2 rounded pin 
+  description: Very mediocre 2nd hand board, not sure where it came from but really didn't make me amped to surf at all.
+  tag: surfboard
+- src: /assets/photos/surfing/2013.png
+  date: 2013
+  caption: Lost Mayhem Rocket 6'0 19 2? 
+  description: Think that or maybe a Lost Scorcher 2.. Don't know Board I bought to take to Bali. Quite a lot of volume, can't quite remember that much about it, but seemed maybe not enough rocker for the waves in Bali. Quite enjoyed it, sad to leave it there.
+  tag: surfboard
+- src: /assets/photos/surfing/2013-3.png
+  date: 2013
+  caption: Lost Mayhem Rocket 6'0 19 2? 
+  description: Think that or maybe a Lost Scorcher 2.. Don't know Board I bought to take to Bali. Quite a lot of volume, can't quite remember that much about it, but seemed maybe not enough rocker for the waves in Bali. Quite enjoyed it, sad to leave it there.
+  tag: surfboard
+- src: /assets/photos/surfing/2013-2.png
+  tag: surfboard
+  date: 2013
+  caption: Spowy 6'1x18x2? 
+  description: Board I bought to take to Bali. Nice standard board that went really well in good conditions. Got a cracker barrel, snapped it the next day.
+  tag: surfboard
+- src: /assets/photos/surfing/2013-4.png
+  date: 2013
+  caption: Baron rounded step up 	6.3 x 18 x 2? 
+  description: Board I bought to take to Bali. Didn't need a step up in Bali, when the waves got bigger than overhead it got too heavy anyway :) Snapped at Dreamlands
+  tag: surfboard
+- src: /assets/photos/surfing/2007.png
+  date: 2007
+  caption: Spowy firefox 5’11 x 18 x 2 
+  description: Really liked this board, snapped the nose at Llandudno and was pretty sad.
+  tag: surfboard
+- src: /assets/photos/surfing/2005.png
+  date: 2005
+  caption: Rebel rounded pin 
+  description: This was a terrible board. Didn't turn, didn't duck-dive, finnicky and hard to surf, with a weird rocker that plowed water.
+  tag: surfboard 
+- src: /assets/photos/surfing/2004.png
+  date: 2004
+  caption: Rebel 
+  description: Quite a flat little board, still going.
+  tag: surfboard
+- src: /assets/photos/surfing/2002.png
+  date: 2002
+  caption: bitch hand-me-down 
+  description: Got this from someone sponsored, not a great progression board...
+  tag: surfboard
+- src: /assets/photos/surfing/1997.png
+  date: 1997
+  caption: Titch Paul Twinnie 
+  description: Epic 80's twin fin, sad to have given this board away. Surfed it a few times in the late 2000's and was super interesting. Very hard to surf bigger waves.
+  tag: surfboard

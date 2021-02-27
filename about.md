@@ -14,10 +14,10 @@ I like to treat this page as a bit of a personal garden. I've got a few links be
 
 ### My personal pages:
 
-* [Writing](/writing/) - Some writing related to work, and some more general thoughts
-* [Sailing](/sailing/) - Some sailing pics and a logbook
-* [Surfing](/surfing/) - Every surfboard I've ever owned
-* [Media](/sports/) - Videos of me doing things
+* [Writing](/about/writing/) - Some writing related to work, and some more general thoughts
+* [Sailing](/about/sailing/) - Some sailing pics and a logbook
+* [Surfing](/about/surfing/) - Every surfboard I've ever owned
+* [Media](/about/sports/) - Videos of me doing things
 * [Photography](https://film.rdrn.dev/film) - Dragging around a film camera for fun and personal development...
 * [Recipe Book](https://food.rdrn.dev/) - Some great stuff in there, ask me about my bread!
 

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Boards
+---
+
+<div class="photos">
+    {%- for photo in site.data.photos -%}
+        {% if photo.tag contains 'surfboard' %}
+            {%- assign a = photo.src | split: '/20' -%}
+            {%- assign id = a[1] | split: '.' -%}
+            {%- assign id = id[0] -%}
+            <div class="thumb" id="img-{{ id }}">
+                <label for="{{ forloop.index }}">
+                    <img loading="lazy" class="thumb-image" src="{{ photo.src }}" alt="{{ photo.caption }}">
+                    <div class="caption">
+                        <span class="photo-date">{{ photo.date }}</span>
+                        <span class="photo-caption">{{ photo.caption }}</span>
+                    </div>
+                </label>
+                <input class="modal-state" id="{{ forloop.index }}" type="checkbox">
+                <div class="modal">
+                    <!-- <div id="left-{{- forloop.index -}} " style="left:20px" class="modal-arrow">ᐸ</div>
+                    <div id="right-{{- forloop.index -}}" style="right:20px" class="modal-arrow">ᐳ</div> -->
+                    <label for="{{ forloop.index }}">
+                        <div class="modal-content">
+                            <img loading="lazy" class="modal-photo" src="{{ photo.src }}" alt="{{ photo.caption }}">
+                            <div>
+                                <span class="photo-date">{{ photo.date }} - {{ photo.caption }}</span>
+                                <br>
+                                <span class="photo-description">{{ photo.description }}</span>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        {% endif %}
+    {%- endfor -%}
+</div>
+
+<script>
+<!--This script simply enables direct-linking to photos and the back/advance slideshow arrows.-->
+const get=document.getElementById.bind(document);
+const queryAll=document.querySelectorAll.bind(document);
+try{get(new URL(window.location.href).searchParams.get("i")).checked=true;}catch(e){}
+queryAll(".modal-arrow").forEach((el)=>{el.onclick=(e)=>{
+    [dir,idx]=e.target.id.split("-");
+    try{get((+idx+(dir=="right"?1:-1)).toString()).checked=true; get(idx).checked=false;}catch(e){}
+};});
+</script>

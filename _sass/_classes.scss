@@ -62,12 +62,13 @@
     margin-top: 2em;
     // margin-left: calc(0.2 * #{$sidebar-width});
   }
-
-  // @include xl {
-  //   margin-left: calc(50% - #{$body-width}/2 - #{$sidebar-width});
-  // }
 }
 
+.home-body {
+  float: none;
+  margin-top: 1em;
+  width: 100%;
+}
 /* ==========================================================================
   ARCHIVE
 ========================================================================== */
@@ -259,7 +260,7 @@
 
 .photos {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1 , 1fr);
 	grid-gap: 10px;
 	grid-auto-rows: 30vh;
 }
@@ -270,6 +271,25 @@
     overflow:hidden;
     position:relative;
     background:#000
+}
+
+.board-photos {
+  grid-column: 2 / 4;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: 30vh;
+  @include lg {
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 50px 50px 0;
+      grid-auto-rows: calc(0.3*100vw/2);
+  }
+}
+
+.board-thumb {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .thumb .caption {
@@ -297,7 +317,7 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .photo-caption {
@@ -308,17 +328,26 @@
     font-size: 30px;
 }
 
+.photo-description {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 25px;
+}
+
 .modal-content .photo-date,
+.modal-content .photo-description,
 .modal-content .photo-caption {
     width: 80%;
-    margin-left: -40%;
+    margin-left: 10%;
     color: #fff;
     opacity: 1;
     left: 50%;
     text-align: center;
     @include md {
-        width: 600px;
-	margin-left: -300px;
+        width: 1000px;
+	margin-left: -500px;
     }
 }
 
@@ -362,6 +391,22 @@
 .modal-state:checked + .modal {
   opacity: 1;
   visibility: visible;
+}
+
+.modal-arrow {
+  position: absolute;
+  font-size: 40px;
+  top: calc(50vh - 25px);
+  z-index: 99;
+  @include md {
+      font-size: 50px;
+  }
+}
+
+
+.modal-arrow:hover {
+  cursor: pointer;
+  color: #dcedf8;
 }
 
 /* ==========================================================================

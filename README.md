@@ -1,6 +1,6 @@
 # mattarderne.github.io
 
-Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll using [my brother @carderne's very neat theme](https://github.com/carderne/carderne.github.io)
+Static repo for my [personal blog](https://rdrn.dev/) created using Jekyll using [my brother @carderne's very neat theme](https://github.com/carderne/carderne.github.io) and copying his css file blindly.
 
 To serve locally:
 ```
@@ -29,11 +29,11 @@ ToDo
 - [x] figure out photos JS
 - [x] write a blog post
     - [x]  work related
+- [x] replace favicon.ico
 
-- [ ] add [comments in github](https://dc25.github.io/myBlog/2017/06/24/using-github-comments-in-a-jekyll-blog.html)
+- [x] add [comments in github](https://dc25.github.io/myBlog/2017/06/24/using-github-comments-in-a-jekyll-blog.html)
     - or something using [this](https://github.com/open-source-ideas/open-source-ideas.github.io)
 - [ ] figure out book / bookshelf recommendations
-- [ ] replace favicon.ico
 - [ ] setup sitemap.xml
 - [ ] weekly bit, articles, podcasts, twitter
 - [ ] Blog sailing related

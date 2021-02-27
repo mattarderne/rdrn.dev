@@ -5,12 +5,7 @@ excerpt: "Engineering domains"
 exclude: true
 ---
 
-> {{ site.aboutme}}
->
-> Please get in touch via the links on the left.
-
-
-I enjoy helping businesses drive value from their people, systems and processes using data and modern cloud systems. Analytics Engineering is the closest approximation.
+I enjoy helping businesses derive value from their people, systems and processes using data and modern cloud technology. Analytics Engineering is the closest approximation. Get in touch if you'd like to discuss how I can help.
 
 
 # Tech Domains / Services
@@ -19,7 +14,7 @@ I enjoy helping businesses drive value from their people, systems and processes 
 
 I work as a Head of Data, specializing in Analytics and Artificial Intelligence, and with a strong foundational basis in Data Warehousing & Data Integration. This means I am very comfortable across the data systems life cycle with Python, ML, Neural Nets, SQL, ETL and general Data Wrangling. I'm also comfortable with Devops and managing AWS infra, BI tools such as Tableau and Looker [and architecting these systems](https://groupby1.substack.com/p/data-as-a-utility-tool).
 
-I also offer hands-on [training](/training/) in all matters relating to Data.
+I also offer hands-on [training](/engineering/training/) in all matters relating to Data.
 
 * Data Engineering
     * Snowflake Data Warehouse
