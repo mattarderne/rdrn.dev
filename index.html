@@ -9,7 +9,7 @@ layout: home
       text-align: center;
     }
     h1 {
-      margin: 30px 0;
+      margin: 10px 0;
       font-size: 4em;
       line-height: 1;
       letter-spacing: -1px;
@@ -19,35 +19,30 @@ layout: home
   <div class="container">
     <!-- <i>MATT ARDERNE</i> -->
     
-    <h1>data <i>products</i></h1>
+    <h1>data</h1>
+    <!-- <h1>data <i>products</i></h1> -->
     <h1><a href="{{ site.baseurl }}/advisory">advisory</a></h1> 
-    <i><h1>&</h1></i>
+    <h1>and</h1>
     <h1><a href="{{ site.baseurl }}/engineering">engineering</a></h1> 
     <br>
     
-    <h3>Let's chat data</h3>
-    <br>
-    <br>
-    
+    <h3>Let's talk data</h3>  
+    <a href="mailto:{{ site.email }}"><i class="icon icon-mail"></i></a>
+    <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"><i class="icon icon-li"></i></a>
+    <a href="https://github.com/{{ site.github }}" target="_blank"><i class="icon icon-github-circled"></i></a>
     
 </div>
 
 <div class="container">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <br>
     <br>
     <br>
     <b>{{ site.company }}</b>
+    <!-- <i>{{ site.company_address }}</i> -->
     <br>
-    <i>{{ site.company_address }}</i>
-    <br>
-    <b>{{ site.buzzwords }}</b>
     <img src="{{ site.avatar }}" alt="{{ site.title }}" class="author-avatar-footer" itemprop="image">
+    <b>{{ site.buzzwords }}</b>
     <h2>about <a href="{{ site.baseurl }}/about">matt arderne</a></h2> 
     
     

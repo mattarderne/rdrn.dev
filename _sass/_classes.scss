@@ -41,6 +41,33 @@
   }
 }
 
+.home {
+  clear: both;
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-bottom: 0.4em;
+
+  @include lg {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 2em;
+    // margin-left: calc(0.2 * #{$sidebar-width});
+  }
+
+  // @include xl {
+  //   margin-left: calc(50% - #{$body-width}/2 - #{$sidebar-width});
+  // }
+}
+
 /* ==========================================================================
   ARCHIVE
 ========================================================================== */
@@ -360,9 +387,9 @@
 
 .author-avatar {
   display: block;
-  width: 10em;
+  width: 4em;
   margin: left;
-  max-width: 12em;
+  max-width: 4em;
 }
 
 .author-avatar-footer {
@@ -371,7 +398,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  max-width: 5em;
+  max-width: 4em;
 }
 
 .author-content {
