@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 
+title:  surfing
 excerpt: "Surf related snippet"
 exclude: true
 ---

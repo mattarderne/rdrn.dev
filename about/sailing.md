@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 
+title: sailing
 excerpt: "I have spent most of my life living near the sea, and have spent a few years working on sailing and motor yachts.
 This page gives a brief overview of the time I've spent on the sea or at sea, and is intended to be a personal record and CV."
 exclude: true
