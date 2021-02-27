@@ -1,3 +1,6 @@
+################################################
+###########    SURFING  ########################
+################################################  
 - src: /assets/photos/surfing/2021-2.png
   date: 2021
   caption: Pyzel phantom 6'0 32L 
@@ -98,3 +101,94 @@
   caption: Titch Paul Twinnie 
   description: Epic 80's twin fin, sad to have given this board away. Surfed it a few times in the late 2000's and was super interesting. Very hard to surf bigger waves.
   tag: surfboard
+- src: /assets/photos/surfing/1997.png
+  date: 1997
+  caption: Titch Paul Twinnie 
+  description: Epic 80's twin fin, sad to have given this board away. Surfed it a few times in the late 2000's and was super interesting. Very hard to surf bigger waves.
+  tag: surfboard
+
+
+################################################
+###########    SAILING  ########################
+################################################  
+- src: /assets/photos/sailing/fastnet_start.jpg
+  date: 2019 
+  caption: RORC Fastnet Start
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/channel_race.jpg
+  date: 2019 
+  caption: RORC Channel Race
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/jt1.png
+  date: 2019 
+  caption: Racing on Jybe Talkin, Warsash Spring Series
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/nab1.png
+  date: 2019 
+  caption: Racing on Sweat Pea, JOG Nab Tower
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/avel1.jpg
+  date: 2008
+  caption:  Racing on board SY Avel, Med regatta circuit
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/avel2.jpg
+  date: 2008
+  caption:  Racing on board SY Avel, Med regatta circuit
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/avel3.jpg
+  date: 2008
+  caption:  Racing on board SY Avel, Med regatta circuit
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/avel4.jpg
+  date: 2008
+  caption:  Racing on board SY Avel, Med regatta circuit
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/avel6.jpg
+  date: 2008
+  caption:  Racing on board SY Avel, Med regatta circuit
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/creole1.jpg
+  date: 2008
+  caption:  Avel support vessel, SY Creole
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/creole4.jpg
+  date: 2008
+  caption:  Avel support vessel, SY Creole
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/creole5.jpg
+  date: 2008
+  caption:  Avel support vessel, SY Creole
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/creole6.jpg
+  date: 2008
+  caption:  Avel support vessel, SY Creole
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/bandol.jpg
+  date: 2020
+  caption:  Charter of a small Beneteau using Click&Boat in Marseille
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/bandol3.jpg
+  date: 2020
+  caption:  Charter of a small Beneteau using Click&Boat in Marseille
+  description:
+  tag: sailing
+- src: /assets/photos/sailing/bf2.jpg
+  date: 2014
+  caption:  mv big fish
+  description: What $300 000 per week will get you. An interesting industry to have experienced, but I'm not rushing back.
+  tag: sailing
+

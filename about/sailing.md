@@ -42,74 +42,39 @@ Sea Miles:
 
 # Highlights
 
-## Racing
+<div class="photos">
+    {%- for photo in site.data.photos -%}
+        {% if photo.tag contains 'sailing' %}
+            {%- assign a = photo.src | split: '/20' -%}
+            {%- assign id = a[1] | split: '.' -%}
+            {%- assign id = id[0] -%}
+            <div class="thumb" id="img-{{ id }}">
+                <label for="{{ forloop.index }}">
+                    <img loading="lazy" class="thumb-image" src="{{ photo.src }}" alt="{{ photo.caption }}">
+                    <div class="caption">
+                        <span class="photo-date">{{ photo.date }}</span>
+                        <span class="photo-caption">{{ photo.caption }}</span>
+                    </div>
+                </label>
+                <input class="modal-state" id="{{ forloop.index }}" type="checkbox">
+                <div class="modal">
+                    <!-- <div id="left-{{- forloop.index -}} " style="left:20px" class="modal-arrow">ᐸ</div>
+                    <div id="right-{{- forloop.index -}}" style="right:20px" class="modal-arrow">ᐳ</div> -->
+                    <label for="{{ forloop.index }}">
+                        <div class="modal-content">
+                            <img loading="lazy" class="modal-photo" src="{{ photo.src }}" alt="{{ photo.caption }}">
+                            <div>
+                                <span class="photo-date">{{ photo.date }} - {{ photo.caption }}</span>
+                                <br>
+                                <span class="photo-description">{{ photo.description }}</span>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        {% endif %}
+    {%- endfor -%}
+</div>
 
 
-[fastnet]: /assets/photos/sailing/fastnet_start.jpg
-![fastnet][fastnet]
-_2019 - RORC Fastnet Start_
-
-[channel]: /assets/photos/sailing/channel_race.jpg
-![fastnet][channel]
-_2019 - RORC Channel Race_
-
-[jt1]: /assets/photos/sailing/jt1.png
-![Grinding when told][jt1]
-_2019 - Racing on Jybe Talkin, Warsash Spring Series_
-
-![Railmeat](/assets/photos/sailing/nab1.png)
-_2019 - Racing on Sweat Pea, JOG Nab Tower._
-
-![](/assets/photos/sailing/avel1.jpg){: width="1000" }
-_2008 - Racing on board SY Avel, Med regatta circuit_
-
-![](/assets/photos/sailing/avel2.jpg){: width="1000" }
-_2008 - Racing on board SY Avel, Med regatta circuit_
-
-![](/assets/photos/sailing/avel3.jpg){: width="1000" }
-_2008 - Racing on board SY Avel, Med regatta circuit_
-
-![](/assets/photos/sailing/avel4.jpg){: width="1000" }
-_2008 - Racing on board SY Avel, Med regatta circuit_
-
-![](/assets/photos/sailing/avel6.jpg){: width="1000" }
-_2008 - Racing on board SY Avel, Med regatta circuit_
-
-![](/assets/photos/sailing/creole1.jpg){: width="1000" }
-_2008 - Avel support vessel, SY Creole_
-
-![](/assets/photos/sailing/creole4.jpg){: width="1000" }
-_2008 - Avel support vessel, SY Creole_
-
-![](/assets/photos/sailing/creole5.jpg){: width="1000" }
-_2008 - Avel support vessel, SY Creole_
-
-![](/assets/photos/sailing/creole6.jpg){: width="1000" }
-_2008 - Avel support vessel, SY Creole_
-
-## Cruising
-
-![](/assets/photos/sailing/bandol.jpg){: width="1000" }
-_2020 - Charter of a small Beneteau using Click&Boat in Marseille_
-![](/assets/photos/sailing/bandol3.jpg){: width="1000" }
-_2020 - Charter of a small Beneteau using Click&Boat in Marseille_
-
-
-
-## Professional
-
-What $300 000 per week will get you. An interesting industry to have experienced, but I'm not rushing back.
-![](/assets/photos/sailing/bf2.jpg){: width="1000" }
-_2014 - mv big fish_
-
-## Inspiration
-![](/assets/photos/sailing/nice.jpg){: width="1000" }
-
-![](/assets/photos/sailing/nice2.jpg){: width="1000" }
-
-![](/assets/photos/sailing/nice3.jpg){: width="1000" }
-
-![](/assets/photos/sailing/nice4.jpg){: width="1000" }
-
-
-<img name="absurd.design" src="/assets/images/ad_landing.png" alt=""/>
+<!-- <img name="absurd.design" src="/assets/images/ad_landing.png" alt=""/> -->
