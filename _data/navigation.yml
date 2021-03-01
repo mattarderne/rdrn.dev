@@ -6,5 +6,5 @@
   link: /engineering
 - name: /about
   link: /about
-- name: /writing
-  link: /writing
+# - name: /writing
+#   link: /writing/writing

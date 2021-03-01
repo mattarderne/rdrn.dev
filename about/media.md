@@ -1,12 +1,9 @@
 ---
 layout: single
-title: Sports
-excerpt: "Sports."
+title: Media
+excerpt: "Media and related."
 exclude: true
 ---
-
-I enjoy learning new things. This includes technology, physical skills and learning new sports. A few of the outdoor activities I enjoy include downhill skateboarding, surfing, snowboarding, mountain-biking, rock-climbing & sailing. I also enjoy photography and videography.
-I love reading and try to read a few books every month, usually a mix of fiction and non-fiction.
 
 A few highlights of interest
 

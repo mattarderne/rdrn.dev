@@ -9,6 +9,9 @@ gem update --system
 bundle exec jekyll serve
 ```
 
+Jekyll cheatsheet https://devhints.io/jekyll
+
+[ ] add a footer {% include header.html %}
 
 
 * [_data](/_data) - photos.yml to describe pics

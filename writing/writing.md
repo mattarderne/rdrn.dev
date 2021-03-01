@@ -1,30 +1,26 @@
 ---
 layout: single
-title: writing
+title: Writing
 excerpt: "Collection of Writing."
 exclude: false
 ---
 
-<!-- <img name="absurd.design" src="/assets/images/ad_blog.png" alt=""/> -->
 
-> I'm working on my ability to communicate through writing. This is the workshop. 
 
-**[groupby1.substack.com](https://groupby1.substack.com/)**
+Follow me here or on Substack
 
-My thoughts on modern data analytics systems.  Describe your day-job stuff.
+* **[groupby1.substack.com](https://groupby1.substack.com/)**
 
-Topics cover the intersection of Data Engineering and Data Analytics. 
+  * My thoughts on modern data analytics systems.  Describe your day-job stuff. Topics cover the intersection of Data Engineering and Data Analytics. 
 
----
+*  **[Matt's World View](https://rdrn.substack.com)**
 
-**[Matt's World View](https://rdrn.substack.com)**
-
-General writing, expanding my understanding of the world. This is very experimental. 
+    * Slower start, general writing, expanding my understanding of the world. This is very experimental. 
 
 ---
 
 
-# Selected posts 
+# Top posts 
 
 {% for post in site.posts %}
   {% unless post.exclude %} 
@@ -40,4 +36,6 @@ General writing, expanding my understanding of the world. This is very experimen
   {% endunless %}
 {% endfor %}
 
-**All posts will be copied [here](/writing/writing_archive) from Substack in due course.**
+**Archive [here](/writing/writing_archive), copied from Substack in due course.**
+
+<img name="absurd.design" src="/assets/images/ad_blog.png" alt=""/>
