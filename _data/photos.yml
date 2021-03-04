@@ -11,19 +11,20 @@
   caption: Lost Bean Bag 5'8  22.5  2.75  41L 
   description: Great in _VERY_ small waves, has a massively wide tail so really struggles in anything bigger than waist high, and especially bad in hollow waves. Very fun for waves that would otherwise be great on a longboard, and paddles incredibly well for the size. Have bought quad rear fins to try out, as this doesn't feel great as a thruster 
   tag: surfboard
-- src: /assets/photos/surfing/2020.png
+- src: /assets/photos/surfing/2020-5.png
   date: 2020
   caption: SkinDog 6'0 x 21 x 2.5 35L 
   description: This board was super fun at The Wave artificial wave. It is one of the rental boards, and thankfully available. It definitely helped to have the extra volume as the fresh water isn't very bouyant and is freezing cold, so extra neoprene means you need the volume. The 2+1 fin configuration is great for loosening the board up, as you don't need the hold in the very weak waves they hadn't enabled Advanced+ so the wave was tiny. Would really like to get one of these for weaker surf days.
-- src: /assets/photos/surfing/2020-3.png
-  date: 2020
-  caption: Pyzel JJF Slab 2.0 - 6'2	20.25	2.5	34.70L 
-  description: This board went well in medium quality Cape Town surf. Haven't really surfed it in great surf, but feels maybe too high performance for Cape Town surf (which is generally average IMO).
   tag: surfboard
 - src: /assets/photos/surfing/2020-2.png
   date: 2020
   caption: The Wave rental board - 6'6 37L 
   description: A boat. Terrible, huge board. Was running late to the session and had to grab whatever was left over.
+  tag: surfboard
+- src: /assets/photos/surfing/2020-3.png
+  date: 2020
+  caption: Pyzel JJF Slab 2.0 - 6'2	20.25	2.5	34.70L 
+  description: This board went well in medium quality Cape Town surf. Haven't really surfed it in great surf, but feels maybe too high performance for Cape Town surf (which is generally average IMO).
   tag: surfboard
 - src: /assets/photos/surfing/2020-4.png
   date: 2020
