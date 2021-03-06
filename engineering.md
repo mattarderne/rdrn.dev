@@ -7,9 +7,6 @@ exclude: true
 
 I enjoy helping businesses derive value from their people, systems and processes using data and modern cloud technology. Analytics Engineering is the closest approximation. Get in touch if you'd like to discuss how I can help apply the best of the modern cloud analytics technology in your business.
 
-
-# Tech Domains / Services
-
 ## 1. Data
 
 I work as a Head of Data, specializing in Analytics and Artificial Intelligence, and with a strong foundational basis in Data Warehousing & Data Integration. This means I am very comfortable across the data systems life cycle with Software Development, ML, SQL, ETL, Data Engineering. I'm also comfortable with Devops and managing AWS infrastructure, and very familiar with BI tools such as Tableau and Looker [and architecting these systems](https://groupby1.substack.com/p/data-as-a-utility-tool).
