@@ -1,6 +1,6 @@
 ---
 layout: single
-title: sailing
+title: 
 excerpt: "I have spent most of my life living near the sea, and have spent a few years working on sailing and motor yachts.
 This page gives a brief overview of the time I've spent on the sea or at sea, and is intended to be a personal record and CV."
 exclude: true
@@ -11,23 +11,29 @@ A sailing CV of sorts.
 I have spent most of my life living near the sea, and have spent a few years working on sailing and motor yachts.
 This page gives a brief overview of the time I've spent on the sea or at sea, and is intended to be a personal record and CV.
 
-# Details 
-```
-Location: {{ site.location }}
-Profession: Data Engineer
-Nationality: South African
+I have participated in offshore races, deliveries, around the cans and anything else that is going. I can cook and keep watch. My career highlight was 2019 Fastnet, which was a very rewarding experience, and possibly something I'd like to do again (also the first and only time I've got seasick... the Irish sea!).  
 
-Qualifications:
+Looking to build overnight watch-keeping sea miles for Yachtmaster. 
+
+# Details 
+
+**Personal:**
+* {{ site.location }}
+* Data Engineer
+* South African
+
+**Qualifications:**
 * Day Skipper
 * Yacht Rating
 * Powerboat II
 * STCW95 (expired)
+* Have my own offshore sailing and safety kit
 
-Sea Miles:
+**Sea Miles:**
 * Motor: ~5000nm
 * Sail: ~3000nm 
 * Offshore Racing: ~1000nm
-```
+
 
 **Crewing Profiles:** 
 
