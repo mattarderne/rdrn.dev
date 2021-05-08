@@ -6,14 +6,17 @@ This page gives a brief overview of the time I've spent on the sea or at sea, an
 exclude: true
 ---
 
-A sailing CV of sorts.
+![english channel](/assets/photos/sailing/sail.png){: width="1000" }
 
-I have spent most of my life living near the sea, and have spent a few years working on sailing and motor yachts.
-This page gives a brief overview of the time I've spent on the sea or at sea, and is intended to be a personal record and CV.
 
-I have participated in offshore races, deliveries, around the cans and anything else that is going. I can cook and keep watch. My career highlight was 2019 Fastnet, which was a very rewarding experience, and possibly something I'd like to do again (also the first and only time I've got seasick... the Irish sea!).  
+_Available for crew and delivery_
+
+I have participated in offshore races, deliveries, around the cans and anything else that is going. I can cook and keep watch. My career highlight was 2019 Fastnet, which was a very rewarding experience, and possibly something I'd like to do again (also the first and only time I've been seasick... the Irish sea!).  
 
 Looking to build overnight watch-keeping sea miles for Yachtmaster. 
+
+I have spent most of my life living near the sea, and have spent a few years working on sailing and motor yachts.
+
 
 # Details 
 
@@ -21,6 +24,8 @@ Looking to build overnight watch-keeping sea miles for Yachtmaster.
 * {{ site.location }}
 * Data Engineer
 * South African
+
+
 
 **Qualifications:**
 * Day Skipper
