@@ -2,27 +2,27 @@
 layout: post
 title: What works at work
 date: '2020-03-6 19:17:00'
-excerpt: "China, China again, and what works."
+excerpt: "What works in ML and AI."
 exclude: True
 tags:
-- Matt's World View
+- World View
 - Globalism
 - Top Post
 blog:
-- Matt's World View
+- World View
 ---
 
 [![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b4dcdf45-81e9-4b11-9ad2-7d14acbcbcad_2080x1467.jpeg) <style>a.image2.image-link.image2-1027-1456 { padding-bottom: 70.53571428571429%; padding-bottom: min(70.53571428571429%, 1027px); width: 100%; height: 0; } a.image2.image-link.image2-1027-1456 img { max-width: 1456px; max-height: 1027px; }</style>](https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4dcdf45-81e9-4b11-9ad2-7d14acbcbcad_2080x1467.jpeg)
 
 ### **World**
 
-[China and AI](http://email.mg1.substack.com/c/eJxNUctu6yAQ_Rqzs8XDDumCRW5uI3XRzdXdWxgmNooBC4ZW-ftit4tKaB5HzMw5M0YjzDE91RYzkpIhjc4qLuUgJSdWUcmNnIjL4z0BeO1WRbYyrc5odDHsn5nkvSCLepl6Aaxn9_tZstNJi8kKczbnwXDa2zMn-4hRF-sgGFDwAekZA5BVLYhbIy4Nv9VnUowPsOj8BKmLaa4Yp-ylOsb2eKgmA7gwt6t7QKvbuwsOoc1YxbRem8UF2JuJW0E_Gu037ebQiL_vGrHhA5d5t_T_Esu84HfyFg73B_AToManvdaDdcXXykP6D5hjSQYq-A8-ChxVAT7zCoiQiFOcckoZ42zoB0o71l0uA7tSemXXE7u93kTTUz-zLpepUjaPzkRPkvKdThZSpd7TeR934HXZY_W-VInPEYKeVrAKUwGC30c71orPDdQvFge4X5JzwSmpo2ysPYNKNoUv6Amlww) - The best bear case for China I’ve yet to come across:
+[AI](http://email.mg1.substack.com/c/eJxNUctu6yAQ_Rqzs8XDDumCRW5uI3XRzdXdWxgmNooBC4ZW-ftit4tKaB5HzMw5M0YjzDE91RYzkpIhjc4qLuUgJSdWUcmNnIjL4z0BeO1WRbYyrc5odDHsn5nkvSCLepl6Aaxn9_tZstNJi8kKczbnwXDa2zMn-4hRF-sgGFDwAekZA5BVLYhbIy4Nv9VnUowPsOj8BKmLaa4Yp-ylOsb2eKgmA7gwt6t7QKvbuwsOoc1YxbRem8UF2JuJW0E_Gu037ebQiL_vGrHhA5d5t_T_Esu84HfyFg73B_AToManvdaDdcXXykP6D5hjSQYq-A8-ChxVAT7zCoiQiFOcckoZ42zoB0o71l0uA7tSemXXE7u93kTTUz-zLpepUjaPzkRPkvKdThZSpd7TeR934HXZY_W-VInPEYKeVrAKUwGC30c71orPDdQvFge4X5JzwSmpo2ysPYNKNoUv6Amlww) - The best bear case for argument against ML I’ve yet to come across:
 
 > In short, there is a very plausible set of mechanisms under which machine learning and related techniques may turn out to be a disaster for authoritarianism, reinforcing its weaknesses rather than its strengths, by increasing its tendency to bad decision making, and reducing further the possibility of negative feedback that could help correct against errors
 
 ### **Existential**
 
-The dual threat this week of [climate-change](https://www.commondreams.org/views/2020/01/01/grim-new-definition-generation-x) and a [disease](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)) from China sharpens the mind, especially with attention snatchers like the following, which I suppose may be true of any time in history.
+The dual threat this week of [climate-change](https://www.commondreams.org/views/2020/01/01/grim-new-definition-generation-x) and a [disease](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)) sharpens the mind, especially with attention snatchers like the following, which I suppose may be true of any time in history.
 
 > People born in the 1960s may be the last human beings who will get to live out their full actuarial life expectancies
 

@@ -5,10 +5,10 @@ date: '2020-01-31 19:17:00'
 excerpt: "Fleeting opinions on progress."
 exclude: true
 tags:
-- Matt's World View
+- World View
 - Progress
 blog:
-- Matt's World View
+- World View
 ---
 [![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d25614c6-26a8-416c-8c08-9fd7ee1ee0b1_2340x2340.jpeg) <style>a.image2.image-link.image2-1456-1456 { padding-bottom: 100%; padding-bottom: min(100%, 1456px); width: 100%; height: 0; } a.image2.image-link.image2-1456-1456 img { max-width: 1456px; max-height: 1456px; }</style>](https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25614c6-26a8-416c-8c08-9fd7ee1ee0b1_2340x2340.jpeg)
 

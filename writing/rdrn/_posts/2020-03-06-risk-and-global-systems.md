@@ -5,10 +5,10 @@ date: '2020-03-6 19:17:00'
 excerpt: "This time, the impact of a virus on globalism."
 exclude: true
 tags:
-- Matt's World View
+- World View
 - Globalism
 blog:
-- Matt's World View
+- World View
 ---
 [![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b12fcd94-e697-4583-9106-338cc80f994a_3898x3089.jpeg) <style>a.image2.image-link.image2-1154-1456 { padding-bottom: 79.25824175824175%; padding-bottom: min(79.25824175824175%, 1154px); width: 100%; height: 0; } a.image2.image-link.image2-1154-1456 img { max-width: 1456px; max-height: 1154px; }</style>](https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb12fcd94-e697-4583-9106-338cc80f994a_3898x3089.jpeg)
 
