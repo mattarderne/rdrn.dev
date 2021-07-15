@@ -130,8 +130,6 @@ What is quite interesting is that there is surprisingly little cross-over from d
 
 ![.png](/assets/images/blog/2021-07-15-electric-skateboarding-racing/Untitled9.png)
 
-Thanks [dexmanning](https://www.instagram.com/p/B30JLFqJFJE/), shoutout to the [best skateboarding I've seen](https://www.youtube.com/watch?v=R2CzlbWfudw)
-
 [https://www.instagram.com/p/B_DVRLvBprE/](https://www.instagram.com/p/B_DVRLvBprE/)
 
 What I imagine is that the design will move in an entirely different direction. 
@@ -156,9 +154,9 @@ Grip racing, most familiar to me, is currently actively racing in two categories
 
 Indoor Go Kart tracks are well suited to ~40kph racing, as illustrated below. This looks like a close fought race. Note the mix of pneumatic and urethane. If the guy in 2nd wasn't riding some overly dippy trucks I'd have him in first in a re-race (skip to 1:35, 2:35 for the mid-corner wobs).
 
-[https://www.youtube.com/watch?v=UAY4aaxg0so](https://www.youtube.com/watch?v=UAY4aaxg0so)
+[![2018 - Evolve Electric Skateboards California](http://img.youtube.com/vi/UAY4aaxg0so/0.jpg)](http://www.youtube.com/watch?v=UAY4aaxg0so "2018 - Evolve Electric Skateboards California")
 
-The above video is from a race put on by Evolve, graciously allowing non-brand boards to their event that is ultimately an exhibition of their technology. I'm sure they're glad their riders placed first and second, but eventually one would hope the field to be open. I've read mixed reports of their 2020 racing being open to off brands
+The above video is from a race put on by Evolve, graciously allowing non-brand boards to their event that is ultimately an exhibition of their technology. I'm sure they're glad their riders placed first and second, but eventually one would hope the field to be open. I've read mixed reports of their 2020 racing being open to off brands. Some further videos:
 
 [https://www.facebook.com/xEraceCZ/videos/3177064309076226/](https://www.facebook.com/xEraceCZ/videos/3177064309076226/)
 
@@ -168,7 +166,7 @@ The above video is from a race put on by Evolve, graciously allowing non-brand b
 
 An interesting development in the race scene is esk8 hobbyists connecting with downhill skaters to use the closed roads for a "side-show" [uphill race](https://forum.esk8.news/t/race-2-bakersfield-outlaw12-up-hill-prix/239/2). This is run in the same way as downhill, knockout 4-6 man heats. 
 
-[https://www.youtube.com/watch?v=7EPu6qHSaIY](https://www.youtube.com/watch?v=7EPu6qHSaIY)
+[![eSk8 Race uphill](http://img.youtube.com/vi/7EPu6qHSaIY/0.jpg)](http://www.youtube.com/watch?v=7EPu6qHSaIY "eSk8 Race uphill")
 
 [Behind the scenes](https://youtu.be/pJs8RXfemR4?t=146), note Mr Abec11 Chris Chaput getting involved. Always a good sign.
 
