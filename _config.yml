@@ -1,8 +1,8 @@
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Matt Arderne"
 author                   : "Matt Arderne"
-description              : "Use the links above to learn more, see my work and get in touch."
+description              : "Data Engineering."
 url                      : "https://rdrn.dev"
 home                     : "/"
 avatar                   : "/assets/images/small_clean.png"
@@ -13,7 +13,7 @@ email                    : "matt@rdrn.dev"
 buzzwords                : "Fintech • Edtech • Data"
 company                  : "RDRN.DEV LTD UK"
 company_address          : "20 Wenlock Road, London, England, N1 7GU"
-aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record deploying technical systems and driving business value."
+aboutme                  : "Hi, my name is Matt, I'm an experienced engineer with a proven track record building modern data systems."
 
 plugins:
 #  - jekyll-sitemap
