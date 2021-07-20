@@ -186,7 +186,7 @@ The offroad racing seems to mostly take place on either BMX tracks or [junior mo
 
 The below video gives a good sense for where things are at. The boards in this clip are either modified 4 wheel drive Evolve GTR or 2 wheel drive Trampa mountainboards. (Probably an even match at a guess of around 6000Watts each. 
 
-[https://youtu.be/dyM5fTx3UdY?t=157](https://youtu.be/dyM5fTx3UdY?t=157)
+[![ELECTRIC SKATE RACING | UK OPEN](http://img.youtube.com/vi/dyM5fTx3UdY/0.jpg)](http://www.youtube.com/watch?v=dyM5fTx3UdY?t=157 "ELECTRIC SKATE RACING | UK OPEN")
 
 Evolve has done a good job of allowing non-Evolve boards at their open races, and winning in both examples, here and in the Go-kart track. 
 

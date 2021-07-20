@@ -47,7 +47,10 @@ I have spent most of my life living near the sea, and have spent a few years wor
 * [tendrr](https://tendrr.co/profile/Matta)
 
 ## Logbook
-<iframe class="airtable-embed" src="https://airtable.com/embed/shr0v5VP4KkvjAss5?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://rdrn.notion.site/ac2eb4bc4ea54ff7a7e04c1333e3d57b?v=10edd97e18994394b9cfe3e45961e0dd" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+[logbook](https://rdrn.notion.site/ac2eb4bc4ea54ff7a7e04c1333e3d57b?v=10edd97e18994394b9cfe3e45961e0dd)
+
 
 ---
 
