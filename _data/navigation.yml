@@ -1,10 +1,10 @@
 - name: ~/
   link: /
+- name: /writing
+  link: /writing/writing
 - name: /advisory
   link: /advisory
 - name: /engineering
   link: /engineering
 - name: /about
   link: /about
-# - name: /writing
-#   link: /writing/writing

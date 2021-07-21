@@ -5,6 +5,7 @@ date: '2020-07-12 19:17:00'
 excerpt: "This is a technical intro to deploying Snowflake data warehouse, as a follow on from my previous post. This may be useful if you have decided to implement Snowflake."
 exclude: false
 tags:
+- Data
 - Snowflake
 - Top Post
 blog:

@@ -7,7 +7,6 @@ exclude: True
 tags:
 - World View
 - Globalism
-- Top Post
 blog:
 - World View
 ---

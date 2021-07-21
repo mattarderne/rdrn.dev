@@ -15,15 +15,13 @@ I've also been trying some other things, relating to current interests.
 
 
 {% for post in site.posts %}
+
     
-### <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>  
-
-<i><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>  </i>
-
+## <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>  
 
 > <p class="archive-item-excerpt" itemprop="description">{{ post.excerpt | markdownify |  truncate: 250 }}
+<i><time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>  </i>   ---   Tags: {% capture page_tags %}{% for tag in post.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}{% for hash in page_tags %}{{ hash }}   {% endfor %}
 
---- 
 
 {% endfor %}
 
