@@ -7,7 +7,7 @@ exclude: true
 
 I like to treat this page as a bit of a personal garden. I've got a few links below, mostly related to things I'm currently interested in or have been interested in. I don't really do social media anymore, and much prefer the unwalled garden of a website that is entirely mine to do with whatever I feel like.
 
-Feel free to take a look around!
+<- Highlights are linked on the left. Feel free to take a look around!
 
 ps - this page has an RSS feed, which I use to post blogs. Keep in touch!
 
