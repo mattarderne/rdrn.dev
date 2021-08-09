@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Getting into Data
-date: '2021-08-09 19:17:00'
-excerpt: "Rapid fire thoughts on transitioning from a technical role into "data""
+date: '2021-08-08 19:17:00'
+excerpt: "Rapid fire thoughts on transitioning from a technical role into data"
 exclude: false
 tags:
 - Data
-- dbt
-- Top Post
 blog:
 - group by 1
 ---
