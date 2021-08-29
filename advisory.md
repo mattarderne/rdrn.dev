@@ -5,7 +5,7 @@ excerpt: "Advising Tech Led Businesses "
 exclude: true
 ---
 
-_Helping companies scale by providing insights extracted from data._
+_Helping companies scale their data teams, extracting insight from data, reducing cost, risk and uncertainty._
 
 I have a passion for growing companies, and deep insight into emerging technology. With these, I have enabled businesses to grow by unlocking the value in their data, and aligning their tech strategy with the opportunities available to a data driven company.
 <br>

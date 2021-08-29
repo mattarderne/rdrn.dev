@@ -1,7 +1,7 @@
 - name: ~/
   link: /
 - name: /writing
-  link: /writing/writing
+  link: /writing/overview
 - name: /advisory
   link: /advisory
 - name: /engineering
