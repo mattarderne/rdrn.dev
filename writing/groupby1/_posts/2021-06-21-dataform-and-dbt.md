@@ -2,7 +2,7 @@
 layout: post
 title: dataform and dbt
 date: '2021-06-21 19:17:00'
-excerpt: "A quick rundown on two of the “indicative-of-the-future” SQL tools in data analytics at the moment. Dataform and dbt"
+excerpt: "A quick rundown on two of the “indicative-of-the-future” SQL tools in data analytics at the moment. Dataform and dbt. Welcome to my third post, one I have wanted to write from the beginning. Getting these posts done isn’t easy, and the time between publishing is a commitment that I undertook rather lightly. Like most good ideas, this one is late, irrelevant, and likely only to be marginally useful. That said, here is a quick rundown on two of the “indicative-of-the-future” SQL tools in data analytics at the moment"
 exclude: false
 tags:
 - Data

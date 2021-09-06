@@ -2,7 +2,7 @@
 layout: post
 title: The crash of rent-to-let
 date: '2020-03-28 19:17:00'
-excerpt: "This time, an investigation into Airbnb and the property market, and looking for hopeful signs in the virus outbreak.."
+excerpt: "This time, an investigation into Airbnb and the property market, and looking for hopeful signs in the virus outbreak. Seemingly, people, property and leverage don’t always mix. Borrow from the bank, buy property, rent it out, generally fine. What if you cannot borrow from the bank, but want to get in on the Airbnb boom? Tough."
 exclude: false
 tags:
 - Property

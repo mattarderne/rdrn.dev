@@ -2,7 +2,7 @@
 layout: post
 title: Getting into Data
 date: '2021-08-08 19:17:00'
-excerpt: "Rapid fire thoughts on transitioning from a technical role into data"
+excerpt: "Rapid fire thoughts on transitioning from a technical role into data. I’ve been asked frequently enough about making a transition into the Data Analytics space, aka my day job, that I thought it would be useful to combine my thoughts into a coherent post. This is a quick take on who this industry/job/role suits, what the skills required typically&nbsp; look like, and some background info on the industry as a whole. Note that this is oriented towards the Data Analyst / Analytics Engineer."
 exclude: false
 tags:
 - Data

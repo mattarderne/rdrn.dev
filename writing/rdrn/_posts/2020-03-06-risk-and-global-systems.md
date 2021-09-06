@@ -2,7 +2,7 @@
 layout: post
 title: Risk and Global Systems
 date: '2020-03-6 19:17:00'
-excerpt: "This time, the impact of a virus on globalism."
+excerpt: "This time, the impact of a virus on globalism. Moving around the world has typically been something to aspire to do, and so an article pondering the ethical implications of leaving South Africa. caught my attention. Cynical reasons for working abroad include optimising conspicuous consumption (easyJet). Less cynical include resume bolstering (worked at _UKTechCo Ltd)_. "
 exclude: true
 tags:
 - World View

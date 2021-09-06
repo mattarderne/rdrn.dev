@@ -2,7 +2,7 @@
 layout: post
 title: Making the case for electric skateboarding racing
 date: '2020-06-14 19:17:00'
-excerpt: "A lockdown investigation into e-skateboard-racing, something you might hope never takes off."
+excerpt: "A lockdown investigation into e-skateboard-racing, something you might hope never takes off. As an ex-skateboard-pro-am racer, I have a passing interest in skateboards. Recent developments in battery technology led to the Boosted board, and more recently the logical next step, racing. Amateur hobbyists taking up their soldering irons and building faster and more capable electric skateboards (esk8), with the current phase looking like the emergence of grassroots racing in EU and USA"
 exclude: true
 tags:
 - Hobbies

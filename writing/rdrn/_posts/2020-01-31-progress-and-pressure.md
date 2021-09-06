@@ -2,7 +2,7 @@
 layout: post
 title: Progress and Pressure
 date: '2020-01-31 19:17:00'
-excerpt: "Fleeting opinions on progress."
+excerpt: "Fleeting opinions on progress. I’ve often thought about what is necessary to help South Africa, given the opportunities the country has available as the world’s most undervalued currency. Although ppp (*purchasing power parity) is a poor predictor of exchange rates in the short-term, it stacks up better over long periods."
 exclude: true
 tags:
 - World View

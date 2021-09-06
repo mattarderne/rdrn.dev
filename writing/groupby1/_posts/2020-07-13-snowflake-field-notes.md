@@ -2,7 +2,9 @@
 layout: post
 title: Snowflake Field Notes
 date: '2020-07-12 19:17:00'
-excerpt: "This is a technical intro to deploying Snowflake data warehouse, as a follow on from my previous post. This may be useful if you have decided to implement Snowflake."
+excerpt: "This is a technical intro to deploying Snowflake data warehouse, as a follow on from my previous post. This may be useful if you have decided to implement Snowflake. In this post, we’ll be taking a look into my notebook on storing. Specifically, the things I’ve noted as useful when implementing Snowflake. These few notes, scripts and points of reference should save you some time and get you out onto the water sooner. 
+
+Welcome to my pocket notebook, heading _**Snowflake Important Things - Jan 2020.**_"
 exclude: false
 tags:
 - Data

@@ -2,7 +2,7 @@
 layout: post
 title: What works at work
 date: '2020-03-6 19:17:00'
-excerpt: "What works in ML and AI."
+excerpt: "What works in ML and AI. The dual threat this week of climate-change and a disease sharpens the mind, especially with attention snatchers like the following, which I suppose may be true of any time in history. > People born in the 1960s may be the last human beings who will get to live out their full actuarial life expectancies"
 exclude: True
 tags:
 - World View
