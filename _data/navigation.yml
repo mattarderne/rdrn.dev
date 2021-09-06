@@ -1,10 +1,8 @@
-- name: ~/
+- name: Matt Arderne
   link: /
-- name: /writing
-  link: /writing/overview
-- name: /advisory
-  link: /advisory
-- name: /engineering
-  link: /engineering
-- name: /about
+- name: '- About'
   link: /about
+- name: '- Writing'
+  link: /writing/overview
+- name: '- Engineering'
+  link: /engineering
