@@ -60,7 +60,7 @@ layout: compress
         <div itemscope itemtype="https://schema.org/Person">
           <img src="{{ site.avatar }}" alt="{{ site.title }}" class="author-avatar" itemprop="image">
           <div class="author-content">
-            <h4 itemprop="name">{{ site.title }}</h4>
+            <h4 itemprop="name"></h4>
             <nav>
               {% for item in site.data.navigation %}
                 <a href="" {% if page.url == item.link %}style="color: red;"{% endif %}>
@@ -72,8 +72,9 @@ layout: compress
             <a href="mailto:{{ site.email }}"><i class="icon icon-mail"></i></a>
             <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"><i class="icon icon-li"></i></a>
             <a href="https://github.com/{{ site.github }}" target="_blank"><i class="icon icon-github-circled"></i></a>
-            <!-- <h5 itemprop="name">{{ site.location }}</h5> -->
+            <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="icon icon-twitter"></i></a>
           </div>
+          <!-- <h5 itemprop="name">{{ site.location }}</h5> -->
 
         </div>
       </div>

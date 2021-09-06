@@ -2,7 +2,7 @@
 layout: post
 title: Data as a Utility Tool
 date: '2020-05-07 09:17:00'
-excerpt: "Within the companies I have worked for and plan on working for, uncertainty is a common thread. Sales may continue to accelerate, funding should land next quarter, we hope to keep in touch. The uncertainty may be more concrete. We should change to a new CRM. We probably need to stop reporting in Excel. ."
+excerpt: "Within the companies I have worked for and plan on working for, uncertainty is a common thread. Sales may continue to accelerate, funding should land next quarter, we hope to keep in touch. The uncertainty may be more concrete. We should change to a new CRM. We probably need to stop reporting in Excel."
 exclude: false
 tags:
 - Data
