@@ -13,5 +13,7 @@ bundle exec jekyll serve
 ToDo
 - [ ] setup sitemap.xml
 - [ ] add a landing page [visualisation](https://ptsjs.org/demo/?name=htmlform.scope)
+- [ ] Convert Html to MD - https://www.browserling.com/tools/html-to-markdown
+- [ ] add pictures from substack
 
 All absurd.design images used from [https://absurd.design/](https://absurd.design/)
