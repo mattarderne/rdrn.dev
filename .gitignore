@@ -4,3 +4,4 @@ _site
 assets/photos/originals/
 .sass-cache
 .jekyll-cache
+*.icloud
