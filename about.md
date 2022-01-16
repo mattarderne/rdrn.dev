@@ -17,27 +17,27 @@ ps - this page has an RSS feed, which I use to post blogs. Keep in touch!
 # About me
 
 1. Currently based in {{site.location}}
-1. South African, 25 years between Cape Town & St Francis Bay
+1. South African, Cape Town & St Francis Bay
 1. Industrial Engineer before moving into data (it's all the same really)
-1. Avid outdoors person, especially intersection of adrenaline, engineering and skill. 
-1. I enjoy learning new things. This includes technology, physical skills and learning new sports. A few of the activities I are referenced here
+1. Avid outdoors person, especially intersection of adrenaline, engineering and skill
+1. I enjoy learning new things. This includes technology, physical skills and learning new sports. A few are referenced here
 1. I love reading and try to read a few books every month, usually a mix of fiction and non-fiction
 1. Not sure if this would be better as a few paragraphs or if the list is fine
 
 # Misc personal
 
-* [Writing](/writing/overview/) - I'm working on my ability to communicate through writing. This is the workshop. 
+* [Writing](/writing/overview/) - Working on ability to communicate through writing, this is the workshop
 * [Sailing](/about/sailing/) - Some sailing pics and a logbook
 * [Surfing](/about/surfing/) - Every surfboard I've ever owned
-* [Media](/about/media/) - Videos of me doing things
-* [Photography](https://film.rdrn.dev/film) - Dragging around a film camera for fun and personal development...
-* [Recipe Book](https://food.rdrn.dev/) - Some great stuff in there, ask me about my bread!
+* [Media](/about/media/) - Videos of me doing outdoor things
+* [Photography](https://film.rdrn.dev/film) - Dragging around a film camera for fun and personal development
+* [Recipe Book](https://food.rdrn.dev/) - Some great stuff in there, ask me about my bread
 
 # Work/Tech Projects
 
 Project(s) that I am working on and developing. In order of interest:
-1. [focal.page](https://focal.page) - Consulting and product development in the space of SME Fintech.
-1. [reinform.io](http://reinform.io) - Research into misinformation.
+1. [focal.page](https://focal.page) - Consulting and product development in the space of SME Fintech
+1. [reinform.io](http://reinform.io) - Research into misinformation
 
 # Old projects
 
