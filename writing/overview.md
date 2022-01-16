@@ -9,6 +9,8 @@ I've been putting my thoughts together on modern data analytics systems.  Descri
 
 Leave me a comment at the bottom of a post if you've enjoyed it or have feedback!
 
+All posts are first published at [groupby1](groupby1.substack.com/) and arrive here shortly after. You can subscribe there or follow the RSS feed here.
+
 
 
 
