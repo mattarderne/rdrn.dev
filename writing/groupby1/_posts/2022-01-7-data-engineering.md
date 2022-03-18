@@ -9,8 +9,11 @@ tags:
 - dbt
 - Top Post
 blog:
-- group by 1
+- groupby1.substack.com/
 ---
+
+These get posted at [groupby1.substack.com](groupby1.substack.com/) first and posted here as a backup. Comments enabled here and on substack, appreciate any questions.
+
 <p><em>Trigger warning: this may trip your thought leadership nerve, but I’m mostly riffing, and I think it is additive. This post was easy to start, a pain to finish and lots of fun in the middle.</em></p><p><em>This is a narrative for the near future of Data Engineering in startups, and I think makes some interesting points. I do think the post has avenues for expansion, especially counter-arguments in the context of enterprise tech.&nbsp;</em></p><p><em>Hello to new subscribers, and a shoutout to anyone using the RSS feed.</em></p><p><em>Thanks to the <a href="https://locallyoptimistic.com/community/">LocallyOptimistic.com</a> community for some lively discussions on an early draft of this post.</em></p><div><hr></div><div class="captioned-image-container"><figure><a class="image-link image2 image2-743-728" target="_blank" rel="nofollow" href="https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2cac65f-aaeb-442f-a945-3790c3343ec0_1100x743.jpeg"><img src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b2cac65f-aaeb-442f-a945-3790c3343ec0_1100x743.jpeg" width="728" height="743" data-attrs="{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b2cac65f-aaeb-442f-a945-3790c3343ec0_1100x743.jpeg&quot;,&quot;fullscreen&quot;:null,&quot;height&quot;:743,&quot;width&quot;:1100,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" class="sizing-default" alt=""><style>
           a.image2.image-link.image2-743-728 {
             display: inline;

@@ -11,8 +11,10 @@ tags:
 - Snowflake
 - Top Post
 blog:
-- group by 1
+- groupby1.substack.com/
 ---
+
+These get posted at [groupby1.substack.com](groupby1.substack.com/) first and posted here as a backup. Comments enabled here and on substack, appreciate any questions.
 
 [![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/11363802-d543-41b8-b457-8a993b9abb62_1600x1066.jpeg)](https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F11363802-d543-41b8-b457-8a993b9abb62_1600x1066.jpeg)
 

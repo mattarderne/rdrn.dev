@@ -9,8 +9,11 @@ tags:
 - Data Systems
 - Top Post
 blog:
-- group by 1
+- groupby1.substack.com/
 ---
+
+These get posted at [groupby1.substack.com](groupby1.substack.com/) first and posted here as a backup. Comments enabled here and on substack, appreciate any questions.
+
 _Welcome to **group by 1**. In this first post, I’ve started broad with my opinion on a few of the typical compromises made when implementing a modern data warehouse solution. Modern meaning cloud, data warehouse meaning the back-end for an analytics tool. This post is a primer for my future content._
 
 <div>
