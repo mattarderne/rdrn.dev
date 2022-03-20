@@ -5,8 +5,6 @@ excerpt:
 exclude: true
 ---
 
-# About 
-
 Hey, I’m currently helping businesses define and build data analytics capabilities as an independent consultant. I’m also building [focal](https://hellofocal.com) as co-founder.
 
 Get in touch: <a href="mailto:{{ site.email }}?subject=Let's talk data">{{ site.email }}</a>
