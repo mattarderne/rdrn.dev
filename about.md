@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 
+title: About
 excerpt: 
 exclude: true
 ---
