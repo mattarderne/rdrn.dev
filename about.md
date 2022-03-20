@@ -5,14 +5,23 @@ excerpt:
 exclude: true
 ---
 
+# About 
 
-This page is about me broadly, while work related [advisory](/advisory) and [engineering](/engineering) are in those links. 
+Hey, I’m currently helping businesses define and build data analytics capabilities as an independent consultant. I’m also building [focal](https://hellofocal.com) as co-founder.
 
-I like to treat this page as a bit of a personal garden. I've got a few links below, mostly related to things I'm currently interested in or have been interested in. I'm preferring the un-walled garden of a website that is entirely mine to do with whatever I feel like.
+Get in touch: <a href="mailto:{{ site.email }}?subject=Let's talk data">{{ site.email }}</a>
+ / <a href="https://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a>
+ 
 
-<- Highlights are linked on the left. Feel free to take a look around!
+---
 
-ps - this page has an RSS feed, which I use to post blogs. Keep in touch!
+This page is about me broadly, while work related can be found in [engineering](/engineering).
+
+I like to treat this page as a bit of a personal garden. I've got a few links below, mostly related to things I'm currently interested in or have been interested in. 
+
+<- Highlights are linked on the left. Feel free to take a look around.
+
+ps - this page has an [RSS feed](/feed.xml), I recommend [feedly](https://feedly.com/)
 
 # About me
 
@@ -28,20 +37,19 @@ ps - this page has an RSS feed, which I use to post blogs. Keep in touch!
 
 * [Writing](/writing/overview/) - Working on ability to communicate through writing, this is the workshop
 * [Sailing](/about/sailing/) - Some sailing pics and a logbook
-* [Surfing](/about/surfing/) - Every surfboard I've ever owned
-* [Media](/about/media/) - Videos of me doing outdoor things
-* [Photography](https://film.rdrn.dev/film) - Dragging around a film camera for fun and personal development
-* [Recipe Book](https://food.rdrn.dev/) - Some great stuff in there, ask me about my bread
+* [Surfing](/about/surfing/) - Misc surfing related
+* [Media](/about/media/) - Some older videos of sporty things
+* [Recipe Book](https://food.rdrn.dev/baking-bread/) - Baking sourdough is absolutely rewarding 
 
 # Work/Tech Projects
 
 Project(s) that I am working on and developing. In order of interest:
-1. [focal.page](https://focal.page) - Consulting and product development in the space of SME Fintech
-1. [reinform.io](http://reinform.io) - Research into misinformation
+1. [focal](https://hellofocal.com) - Consulting and product development in the space of network/graph analytics, applied to Fraud, KYC, Credit.
 
 # Old projects
 
 Roughly in order of interest:
+1. [reinform.io](http://reinform.io) - Research into misinformation, applying network analytics techniques to media
 1. [waves](http://rdrn.com/waves) - Involving waves and neural nets Wrapped this up. If you are interested in contributing to an open-data surf map, lmk.
 1. [CommitLearn](https://mattarderne.github.io/CommitLearn/) - This was an experimental audio learning experience using podcasts. Podcasts are just RSS feeds, so why not hack together your own playlist? Still think this is a good idea.
 1. [concentrait](https://mattarderne.github.io/concentrait/) - The learning optimization API. Edtech has a long way to go.
@@ -51,5 +59,5 @@ Roughly in order of interest:
 
 If you are in the market for someone smart but I don't quite match up, please take a look at my exceptionally talented brothers:
 
-* [Chris](https://rdrn.me/) - intersection of data science and energy access
+* [Chris](https://rdrn.me/) - Intersection of data science and energy access
 * [Andrew](https://github.com/zoomie) - Python, go, algorithms, concurrency 

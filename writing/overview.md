@@ -5,13 +5,13 @@ excerpt: "Collection of Writing."
 exclude: false
 ---
 
-I've been putting my thoughts together on modern data analytics systems.  Describe your day-job stuff. Topics cover the intersection of Data Engineering and Data Analytics. I've also been trying some other things, relating to current interests. These are the posts I've put the most effort into.
+I've been putting my thoughts together on modern data analytics systems. 
+
+Topics cover the intersection of Data Engineering and Data Analytics, with a focus on providing thought provoking content rather than reference manuals for current tech.
 
 Leave me a comment at the bottom of a post if you've enjoyed it or have feedback!
 
-All posts are first published at [groupby1](groupby1.substack.com/) and arrive here shortly after. You can subscribe there or follow the RSS feed here.
-
-
+All posts are first published at [groupby1.substack.com](https://groupby1.substack.com/) and arrive here shortly after. You can subscribe there or follow the RSS feed here.
 
 
 {% for post in site.posts %}
