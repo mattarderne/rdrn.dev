@@ -39,12 +39,12 @@ ps - this page has an [RSS feed](/feed.xml), I recommend [feedly](https://feedly
 * [Media](/about/media/) - Some older videos of sporty things
 * [Recipe Book](https://food.rdrn.dev/baking-bread/) - Baking sourdough is absolutely rewarding 
 
-# Work/Tech Projects
+# Current Focus
 
 Project(s) that I am working on and developing. In order of interest:
-1. [focal](https://hellofocal.com) - Consulting and product development in the space of network/graph analytics, applied to Fraud, KYC, Credit.
+1. [focal](https://hellofocal.com) - Consulting in the space of fintech analytics.
 
-# Old projects
+# Other/Older projects
 
 Roughly in order of interest:
 1. [reinform.io](http://reinform.io) - Research into misinformation, applying network analytics techniques to media
