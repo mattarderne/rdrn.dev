@@ -13,7 +13,7 @@ Get in touch: <a href="mailto:{{ site.email }}?subject=Let's talk data">{{ site.
 
 ---
 
-This page is about me broadly, while work related can be found in [engineering](/engineering).
+This page is about me broadly, while work-related can be found in [engineering](/engineering).
 
 I like to treat this page as a bit of a personal garden. I've got a few links below, mostly related to things I'm currently interested in or have been interested in. 
 
