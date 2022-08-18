@@ -6,7 +6,6 @@ excerpt: "This time, an investigation into Airbnb and the property market, and l
 exclude: false
 tags:
 - Property
-- Top Post
 blog:
 - World View
 ---

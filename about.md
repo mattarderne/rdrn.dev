@@ -33,7 +33,7 @@ ps - this page has an [RSS feed](/feed.xml), I recommend [feedly](https://feedly
 
 # Misc personal
 
-* [Writing](/writing/overview/) - Working on ability to communicate through writing, this is the workshop
+* [Writing](/writing/overview/) - Working on the ability to communicate through writing, this is the workshop
 * [Sailing](/about/sailing/) - Some sailing pics and a logbook
 * [Surfing](/about/surfing/) - Misc surfing related
 * [Media](/about/media/) - Some older videos of sporty things
