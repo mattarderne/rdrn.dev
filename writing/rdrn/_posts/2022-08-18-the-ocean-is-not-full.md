@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Ocean is Not Full
-date: '2022-08-18 01:17:00'
+date: '2022-10-31 01:17:00'
 excerpt: "Seeking flow state on the foil in the first week of September, a reflection on the pursuit of an open-faced wave."
 exclude: true
 tags:
