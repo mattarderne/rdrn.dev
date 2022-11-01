@@ -9,7 +9,6 @@ exclude: false
 tags:
 - Data
 - Snowflake
-- Top Post
 blog:
 - groupby1.substack.com/
 ---

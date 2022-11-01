@@ -6,7 +6,6 @@ excerpt: "Foils are pretty easy to ignore, ask me. I managed for nearly 8 years.
 exclude: true
 tags:
 - Hobbies
-- Random
 blog:
 - Misc
 ---

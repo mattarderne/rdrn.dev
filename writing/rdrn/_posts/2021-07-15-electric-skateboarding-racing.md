@@ -6,7 +6,6 @@ excerpt: "A lockdown investigation into e-skateboard-racing, something you might
 exclude: true
 tags:
 - Hobbies
-- Random
 blog:
 - Misc
 ---

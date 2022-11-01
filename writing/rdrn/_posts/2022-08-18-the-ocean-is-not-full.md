@@ -6,7 +6,7 @@ excerpt: "Seeking flow state on the foil in the first week of September, a refle
 exclude: true
 tags:
 - Hobbies
-- Random
+- Top Post
 blog:
 - Misc
 ---
