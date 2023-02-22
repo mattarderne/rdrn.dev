@@ -10,7 +10,7 @@ blog:
 - Misc
 ---
 
-Status: Work In progress
+### **Status: **Partially Abandoned Work In progress**
 
 *This post investigates the nascent sport of electric skateboard racing. If you didn't know, I once raced skateboards down hills, and so have used that experience to investigate the viability of the powered version. This post broadly assumes some familiarity with skateboard racing, but can be read with an eye to emergent trends and growing a scene. Skim any jargon and unfamiliar technicalities, they aren't necessary to follow the gist.* 
 
@@ -191,7 +191,7 @@ Evolve has done a good job of allowing non-Evolve boards at their open races, an
 
 - Wheels: the racing I have seen is divided between urethane and pneumatic wheels, with each competing differently. Should they be different classes?
 - Batteries: Battery charging is an issue between heats, how many batteries do you need? What happens when they explode. Newer batteries are better than older batteries (freshies...)
-- Speed: They go poes fast, like 60mph, but the races are lame and too straight. the courses need to be more technical. Do you try to involve skate related stuff like drifting?
+- Speed: They go very fast, like 60mph, but the races are lame and too straight. the courses need to be more technical. Do you try to involve skate related stuff like drifting?
 - Drafting: Is the power too much for drafting to be a thing.. see MotoE where there is too much power for drafting
 - Laps vs Heats: Is a lapping process better? Up and Down? Sprints? The battery is too small usually for much more than heats. Or a few laps.
 - DIY vs Manufacturer: Similar to MotoE, a single spec league would make it easier to find support and build out a scene. DIY appeals more to the tinkerers 
