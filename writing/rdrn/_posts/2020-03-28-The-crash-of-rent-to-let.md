@@ -9,7 +9,6 @@ tags:
 blog:
 - World View
 ---
-[![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a68d9bee-2e85-4fd1-93ff-646b1d3628b9_1815x1214.jpeg) <style>a.image2.image-link.image2-974-1456 { padding-bottom: 66.8956043956044%; padding-bottom: min(66.8956043956044%, 974px); width: 100%; height: 0; } a.image2.image-link.image2-974-1456 img { max-width: 1456px; max-height: 974px; }</style>](https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa68d9bee-2e85-4fd1-93ff-646b1d3628b9_1815x1214.jpeg)
 
 _This time, an investigation into Airbnb and the property market, and looking for hopeful signs in the virus outbreak._
 

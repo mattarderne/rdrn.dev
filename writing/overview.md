@@ -5,15 +5,15 @@ excerpt: "Collection of Writing."
 exclude: false
 ---
 
-I've been putting my thoughts together on modern data analytics systems. 
+Topics cover the intersection of Data Engineering, Analytics and Business. 
 
-Topics cover the intersection of Data Engineering and Data Analytics, with a focus on providing thought-provoking content rather than reference manuals for current tech.
+Focus on thought-provoking rather than reference manuals.
 
-Leave me a comment at the bottom of a post if you've enjoyed it or have feedback!
-
-All posts are first published at [groupby1.substack.com](https://groupby1.substack.com/) and arrive here shortly after. You can subscribe there or follow the RSS feed here.
+Published first at [groupby1.substack.com](https://groupby1.substack.com/) and arrive here shortly after. 
 
 Below are the better ones, the rest are on the home page.
+
+Gladly get your feedback (comments, twitter, email).
 
 {% for post in site.posts %}
 {% if post.tags contains 'Top Post' %}

@@ -11,7 +11,6 @@ blog:
 - World View
 ---
 
-[![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b4dcdf45-81e9-4b11-9ad2-7d14acbcbcad_2080x1467.jpeg) <style>a.image2.image-link.image2-1027-1456 { padding-bottom: 70.53571428571429%; padding-bottom: min(70.53571428571429%, 1027px); width: 100%; height: 0; } a.image2.image-link.image2-1027-1456 img { max-width: 1456px; max-height: 1027px; }</style>](https://cdn.substack.com/image/fetch/c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4dcdf45-81e9-4b11-9ad2-7d14acbcbcad_2080x1467.jpeg)
 
 ### **Existential**
 
