@@ -22,26 +22,23 @@ I like to treat this page as a garden. I've got a few links below, mostly relate
 1. Currently based in {{site.location}}
 1. From South Africa (Cape Town & St Francis)
 1. Industrial Engineer before moving into data (all about making decisions)
-1. Avid outdoors person, especially intersection of adrenaline, engineering and skill
+1. I like being outdoors. I'm competitive, enjoy adrenaline, and like pushing myself
 1. I enjoy learning new things. This includes technology, skills and new sports
 1. I try to read a few books every month, usually a mix of fiction and non-fiction
 
 # Misc personal
 
 * [Writing](/writing/overview/) - Working on the ability to communicate through writing, this is the workshop
-* [Sailing](/about/sailing/) - Some sailing pics and a logbook
-* [Surfing](/about/surfing/) - Misc surfing related
-* [Media](/about/media/) - Some older videos of sporty things
-* [Recipe Book](https://food.rdrn.dev/baking-bread/) - Baking sourdough is rewarding 
+* [Sailing](/about/sailing/), [Surfing](/about/surfing/), [Media](/about/media/), [Recipes](https://food.rdrn.dev/baking-bread/) - Baking sourdough is rewarding 
 
 # Current Focus
 
-Project(s) that I am working on and developing. In order of interest:
+Project(s) that I am working on and developing.:
 1. [sea.dev](https://sea.dev) - B2B data infrastructure
 
 # Other projects
 
-Roughly in order of interest:
+Roughly in order of occurance (see [LinkedIn](https://www.linkedin.com/in/m-ard) for the CV):
 1. [focal](https://hellofocal.com) - Consulting in the space of fintech analytics.
 1. [reinform.io](http://reinform.io) - Research into misinformation, applying network analytics techniques to media
 1. [waves](http://rdrn.com/waves) - Involving waves and neural nets Wrapped this up. If you are interested in contributing to an open-data surf map, lmk.

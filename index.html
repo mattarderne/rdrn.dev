@@ -2,16 +2,27 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  
-  <article class="archive-item" itemscope itemtype="https://schema.org/CreativeWork">
-    <h2 class="archive-item-title" itemprop="headline">
-      <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-    </h2>
-    <p class="archive-item-excerpt" itemprop="description">{{ post.excerpt | markdownify |  truncate: 300 }} <a href="{{ post.url | relative_url }}" rel="permalink">Read more</a> </p>
-    <p class="archive-item-date"> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></p> 
-  </article>
+<p class="archive-item-excerpt" itemprop="description">Hi, I'm Matt Arderne. Engineer, Founder. See <a href="/about" rel="permalink">about</a> for details </p>
 
+<p class="archive-item-excerpt" itemprop="description">See below for some of my better writing. Data Engineering, Analytics, with a twist of insight. Published at <a href="https://groupby1.substack.com" rel="permalink">groupby1.substack.com</a>. The full archive is in <a href="/writing/overview" rel="permalink">writing</a> </p>
+
+  
+
+
+
+{% for post in site.posts %}
+{% if post.tags contains 'Top Post' %}
+  
+  
+<h2 class="archive-item-title" itemprop="headline">
+    <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+</h2>
+<p class="archive-item-excerpt" itemprop="description">{{ post.excerpt | markdownify |  truncate: 300 }} <a href="{{ post.url | relative_url }}" rel="permalink">Read more</a> </p>
+<p class="archive-item-date"> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></p> 
+  
+
+{% endif %}
 {% endfor %}
+
 
 
