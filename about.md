@@ -34,7 +34,7 @@ I like to treat this page as a garden. I've got a few links below, mostly relate
 # Current Focus
 
 Project(s) that I am working on and developing.:
-1. [sea.dev](https://sea.dev) - B2B data infrastructure
+1. [sea.dev](https://sea.dev) 🌊 - B2B data infrastructure
 
 # Other projects
 
