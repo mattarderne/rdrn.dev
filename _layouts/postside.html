@@ -40,6 +40,9 @@ layout: compress
 
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="alternate" href="{{ canonical_url }}feed.xml"  type="application/rss+xml" title="Matt Arderne">
+    {% if page.date %}
+    <link rel="alternate" type="text/markdown" href="{{ site.url }}/{{ page.slug | default: page.title | slugify }}.md">
+    {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
