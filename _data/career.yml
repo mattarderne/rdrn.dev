@@ -1,0 +1,193 @@
+# Career chapters for interactive about page
+# Structure: what/why/so-what for each stage
+
+intro:
+  headline: "Helping businesses improve their data"
+  subheadline: "Co-founder at sea.dev"
+  tagline: "Industrial Engineer turned Data Engineer. Building things that matter."
+
+personal:
+  name: "Matt Arderne"
+  location_current: "London, UK"  # Uses site.location
+  location_origin: "Cape Town & St Francis, South Africa"
+  traits:
+    - "Competitive, enjoys adrenaline, likes pushing limits"
+    - "Lifelong learner - technology, skills, sports"
+    - "Avid reader - fiction and non-fiction mix"
+  interests:
+    - name: "Sailing"
+      link: "/about/sailing/"
+    - name: "Surfing"
+      link: "/about/surfing/"
+    - name: "Writing"
+      link: "/writing/overview/"
+
+chapters:
+  - id: "origin"
+    period: "Early Years"
+    title: "Industrial Engineering"
+    location: "South Africa"
+    headline: "Learning to make decisions with data"
+
+    what_i_did:
+      - "Studied Industrial Engineering - the discipline of optimizing complex systems"
+      - "Developed analytical thinking and decision-making frameworks"
+      - "Combined technical skills with business understanding"
+
+    why_i_chose_this: |
+      Industrial Engineering is all about making decisions - understanding systems,
+      identifying bottlenecks, and finding the optimal path forward. I was drawn to
+      the intersection of technical problem-solving and real-world business impact.
+
+    what_i_was_thinking: |
+      I wanted a foundation that would let me work on meaningful problems, not just
+      technical puzzles. IE gave me the tools to think about systems holistically.
+
+    what_i_learned:
+      - "Systems thinking - everything is connected"
+      - "Data-driven decision making is a superpower"
+      - "The best solutions consider human factors, not just technical optimums"
+
+    pivot_moment: |
+      Realized that data was becoming the new oil, and the skills to extract
+      value from it were in short supply. Decided to double down on data.
+
+  - id: "focal"
+    period: "Consulting"
+    title: "Focal - Fintech Analytics"
+    location: "London"
+    headline: "Consulting in fintech analytics space"
+    link: "https://hellofocal.com"
+
+    what_i_did:
+      - "Built analytics solutions for fintech companies"
+      - "Helped businesses understand their data and make better decisions"
+      - "Developed expertise in financial data systems"
+
+    why_i_chose_this: |
+      Fintech was reshaping how money moves. I wanted to be at that intersection
+      of finance and technology, helping companies leverage data to compete.
+
+    what_i_was_thinking: |
+      Consulting would expose me to many different problems and business models.
+      Each client was a new puzzle to solve.
+
+    what_i_learned:
+      - "Every company thinks their data problems are unique (they're not)"
+      - "The hardest part isn't the tech - it's getting people aligned"
+      - "Speed matters in fintech - iterate fast or get left behind"
+
+    pivot_moment: |
+      Saw the same data infrastructure problems repeated across clients.
+      Started thinking about building solutions rather than just consulting.
+
+  - id: "reinform"
+    period: "Research"
+    title: "reinform.io - Misinformation Research"
+    location: "Remote"
+    headline: "Applying network analytics to media"
+    link: "http://reinform.io"
+
+    what_i_did:
+      - "Researched how misinformation spreads through networks"
+      - "Applied network analytics techniques to media ecosystems"
+      - "Built tools to track and understand information flow"
+
+    why_i_chose_this: |
+      Misinformation was (and is) one of the defining challenges of our time.
+      I wanted to apply my data skills to something with societal impact.
+
+    what_i_was_thinking: |
+      If we can understand how information spreads, maybe we can build better
+      systems for truth. The network effects were fascinating technically.
+
+    what_i_learned:
+      - "Information ecosystems are incredibly complex"
+      - "Technical solutions alone can't solve social problems"
+      - "But they can help - visibility is the first step"
+
+    pivot_moment: |
+      The research was important but I missed building products.
+      Wanted to get back to creating things people use daily.
+
+  - id: "waves"
+    period: "Side Project"
+    title: "Waves - Surf Forecasting"
+    headline: "Neural nets meet ocean waves"
+    link: "http://rdrn.com/waves"
+
+    what_i_did:
+      - "Built a surf forecasting system using neural networks"
+      - "Combined passion for surfing with data science"
+      - "Explored open-data approaches to surf mapping"
+
+    why_i_chose_this: |
+      Surfing is a huge part of my life. The existing forecasting tools felt
+      outdated. Why not build something better?
+
+    what_i_was_thinking: |
+      If neural nets can predict weather, they can predict waves. Plus,
+      working on something you're passionate about hits different.
+
+    what_i_learned:
+      - "Side projects keep you sharp"
+      - "Domain expertise + technical skills = unfair advantage"
+      - "Open data communities are amazing but hard to sustain"
+
+    pivot_moment: |
+      Wrapped this up when life got busy, but the idea of open-data surf
+      mapping still excites me. If you want to contribute, let me know.
+
+  - id: "sea"
+    period: "Current"
+    title: "sea.dev - B2B Data Infrastructure"
+    location: "London"
+    headline: "Building the data layer for businesses"
+    link: "https://sea.dev"
+    is_current: true
+
+    what_i_did:
+      - "Co-founded sea.dev to help businesses improve their data"
+      - "Building B2B data infrastructure solutions"
+      - "Turning years of consulting insights into products"
+
+    why_i_chose_this: |
+      After seeing hundreds of companies struggle with the same data problems,
+      it was time to build something that could help at scale.
+
+    what_i_was_thinking: |
+      The best consulting engagements always ended with "why isn't this a product?"
+      Now we're building those products.
+
+    what_i_learned:
+      - "Starting a company is harder and more rewarding than expected"
+      - "The problems you solve matter more than the tech you use"
+      - "Every day is a new lesson"
+
+    whats_next: |
+      Focused on growth and helping more businesses get their data right.
+      The opportunity is massive.
+
+other_projects:
+  - name: "CommitLearn"
+    description: "Experimental audio learning experience using podcasts"
+    link: "https://mattarderne.github.io/CommitLearn/"
+    note: "Podcasts are RSS feeds - why not hack your own playlist?"
+
+  - name: "concentrait"
+    description: "Learning optimization API"
+    link: "https://mattarderne.github.io/concentrait/"
+    note: "Edtech has a long way to go"
+
+  - name: "kaya.chat"
+    description: "Mentorship & student support service"
+    link: "https://mattarderne.github.io/kaya.chat/"
+    note: "Hackathon entry - automating mentorship networks"
+
+brothers:
+  - name: "Chris"
+    focus: "Data science & energy access"
+    link: "https://rdrn.me/"
+  - name: "Andrew"
+    focus: "Python, Go, algorithms, concurrency"
+    link: "https://github.com/zoomie"
