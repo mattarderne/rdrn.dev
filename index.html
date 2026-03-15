@@ -1,28 +1,110 @@
 ---
-layout: default
+layout: home
 ---
 
-<p class="archive-item-excerpt" itemprop="description">Hi, I'm Matt Arderne. Engineer, Founder. See <a href="/about" rel="permalink">about</a> for details </p>
+<div class="hp">
 
-<p class="archive-item-excerpt" itemprop="description">See below for some of my better writing. Data Engineering, Analytics, with a twist of insight. Published at <a href="https://groupby1.substack.com" rel="permalink">groupby1.substack.com</a>. The full archive is in <a href="/writing/overview" rel="permalink">writing</a> </p>
+  <!-- Hero -->
+  <header class="hp-hero">
+    <img src="{{ site.avatar }}" alt="{{ site.title }}" class="hp-avatar">
+    <h1 class="hp-name">Matt Arderne</h1>
+    <p class="hp-tagline">Engineer, founder, builder of data systems.<br>Originally from South Africa, based in London.</p>
+    <nav class="hp-links">
+      <a href="mailto:{{ site.email }}">Email</a>
+      <a href="https://github.com/{{ site.github }}" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">LinkedIn</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </header>
 
-  
+  <!-- Now -->
+  <section class="hp-section">
+    <h2 class="hp-section-label">Now</h2>
+    <div class="hp-now">
+      <p>Co-founder at <a href="https://sea.dev" target="_blank">sea.dev</a>, building B2B data infrastructure. Helping businesses get their data right.</p>
+      <p>When I'm not working, I'm <a href="/about/sailing/">sailing</a>, <a href="/about/surfing/">surfing</a>, or reading. Currently in London.</p>
+    </div>
+  </section>
 
+  <!-- Writing -->
+  <section class="hp-section">
+    <h2 class="hp-section-label">Writing</h2>
+    <p class="hp-section-intro">Data engineering, analytics, with a twist of insight. Published at <a href="https://groupby1.substack.com">groupby1</a>. Full archive in <a href="/writing/overview">writing</a>.</p>
+    <ul class="hp-posts">
+      {% for post in site.posts %}
+      {% if post.tags contains 'Top Post' %}
+      <li class="hp-post">
+        <a href="{{ post.url | relative_url }}" class="hp-post-link">
+          <span class="hp-post-title">{{ post.title }}</span>
+          <span class="hp-post-date">{{ post.date | date: "%b %Y" }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
 
+  <!-- Journey -->
+  <section class="hp-section">
+    <h2 class="hp-section-label">Journey</h2>
+    <div class="hp-timeline">
+      {% for chapter in site.data.career.chapters reversed %}
+      <div class="hp-tl-item{% if chapter.is_current %} hp-tl-current{% endif %}">
+        <div class="hp-tl-marker"></div>
+        <div class="hp-tl-content">
+          <span class="hp-tl-period">{{ chapter.period }}</span>
+          <h3 class="hp-tl-title">
+            {{ chapter.title }}
+            {% if chapter.link %}<a href="{{ chapter.link }}" target="_blank" class="hp-tl-ext">&nearr;</a>{% endif %}
+          </h3>
+          <p class="hp-tl-desc">{{ chapter.headline }}{% if chapter.location %} &middot; {{ chapter.location }}{% endif %}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="hp-more"><a href="/about">Full story &rarr;</a></p>
+  </section>
 
-{% for post in site.posts %}
-{% if post.tags contains 'Top Post' %}
-  
-  
-<h2 class="archive-item-title" itemprop="headline">
-    <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-</h2>
-<p class="archive-item-excerpt" itemprop="description">{{ post.excerpt | markdownify |  truncate: 300 }} <a href="{{ post.url | relative_url }}" rel="permalink">Read more</a> </p>
-<p class="archive-item-date"> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></p> 
-  
+  <!-- Projects -->
+  <section class="hp-section">
+    <h2 class="hp-section-label">Projects</h2>
+    <div class="hp-projects">
+      {% for project in site.data.career.other_projects %}
+      <div class="hp-project">
+        <h4><a href="{{ project.link }}" target="_blank">{{ project.name }}</a></h4>
+        <p>{{ project.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 
-{% endif %}
-{% endfor %}
+  <!-- Interests -->
+  <section class="hp-section">
+    <h2 class="hp-section-label">Interests</h2>
+    <div class="hp-interests">
+      <a href="/about/sailing/" class="hp-interest">Sailing</a>
+      <a href="/about/surfing/" class="hp-interest">Surfing</a>
+      <a href="/writing/overview/" class="hp-interest">Writing</a>
+      <a href="/about/photos/" class="hp-interest">Photos</a>
+      <a href="/about/books/" class="hp-interest">Books</a>
+    </div>
+  </section>
 
+  <!-- Family -->
+  <section class="hp-section">
+    <h2 class="hp-section-label">Brothers</h2>
+    <div class="hp-brothers">
+      {% for brother in site.data.career.brothers %}
+      <div class="hp-brother">
+        <a href="{{ brother.link }}" target="_blank">{{ brother.name }}</a> &mdash; {{ brother.focus }}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 
+  <!-- Site -->
+  <footer class="hp-footer">
+    <p>This site is built with <a href="https://jekyllrb.com">Jekyll</a>, hosted on GitHub Pages. There's an <a href="/feed.xml">RSS feed</a> if you're into that sort of thing.</p>
+  </footer>
 
+</div>

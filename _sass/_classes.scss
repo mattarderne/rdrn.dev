@@ -69,6 +69,312 @@
   margin-top: 1em;
   width: 100%;
 }
+
+/* ==========================================================================
+  HOME PAGE
+========================================================================== */
+
+.hp {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3em 1.2em 4em;
+
+  @include md {
+    padding: 4em 1.5em 6em;
+  }
+}
+
+.hp-hero {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lighter-gray;
+}
+
+.hp-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-bottom: 1.2em;
+}
+
+.hp-name {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 0.4em;
+  line-height: 1.1;
+}
+
+.hp-tagline {
+  font-size: 1.05em;
+  color: $dark-gray;
+  line-height: 1.5;
+  margin: 0 0 1.2em;
+}
+
+.hp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em;
+
+  a {
+    color: $gray;
+    font-size: 0.85em;
+    text-decoration: none;
+    transition: color 0.15s;
+
+    &:hover {
+      color: $dark-gray;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Sections */
+.hp-section {
+  margin-bottom: 2.5em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lighter-gray;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.hp-section-label {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $gray;
+  margin: 0 0 1em;
+  font-weight: 600;
+}
+
+.hp-section-intro {
+  font-size: 0.95em;
+  color: $dark-gray;
+  margin-bottom: 1.2em;
+}
+
+/* Now */
+.hp-now p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin-bottom: 0.6em;
+}
+
+/* Writing list */
+.hp-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hp-post {
+  margin-bottom: 0;
+}
+
+.hp-post-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+  padding: 0.5em 0;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid mix(#fff, $lighter-gray, 30%);
+  transition: background 0.15s;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+
+    .hp-post-title {
+      color: $link-color;
+    }
+  }
+}
+
+.hp-post-title {
+  font-size: 0.95em;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.hp-post-date {
+  font-size: 0.75em;
+  color: $gray;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Timeline */
+.hp-timeline {
+  position: relative;
+  padding-left: 1.5em;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    bottom: 8px;
+    width: 1px;
+    background: $lighter-gray;
+  }
+}
+
+.hp-tl-item {
+  position: relative;
+  padding-bottom: 1.4em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.hp-tl-marker {
+  position: absolute;
+  left: -1.5em;
+  top: 6px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: $lighter-gray;
+  border: 2px solid $background-color;
+}
+
+.hp-tl-current .hp-tl-marker {
+  background: $info-color;
+}
+
+.hp-tl-period {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $gray;
+}
+
+.hp-tl-title {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0.15em 0 0.2em;
+  line-height: 1.3;
+}
+
+.hp-tl-ext {
+  color: $gray;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 0.3em;
+
+  &:hover {
+    color: $link-color;
+    text-decoration: none;
+  }
+}
+
+.hp-tl-desc {
+  font-size: 0.85em;
+  color: $gray;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.hp-more {
+  margin-top: 1em;
+  font-size: 0.9em;
+
+  a {
+    color: $gray;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}
+
+/* Projects */
+.hp-projects {
+  display: grid;
+  gap: 1em;
+}
+
+.hp-project {
+  h4 {
+    font-size: 0.95em;
+    font-weight: 600;
+    margin: 0 0 0.2em;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+
+  p {
+    font-size: 0.85em;
+    color: $gray;
+    margin: 0;
+  }
+}
+
+/* Interests */
+.hp-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.hp-interest {
+  display: inline-block;
+  padding: 0.35em 0.9em;
+  border: 1px solid $lighter-gray;
+  border-radius: 2em;
+  font-size: 0.85em;
+  color: $dark-gray;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+
+  &:hover {
+    border-color: $gray;
+    color: $link-color;
+    text-decoration: none;
+  }
+}
+
+/* Brothers */
+.hp-brothers {
+  font-size: 0.95em;
+}
+
+.hp-brother {
+  margin-bottom: 0.4em;
+  color: $gray;
+
+  a {
+    color: $dark-gray;
+    font-weight: 500;
+  }
+}
+
+/* Footer */
+.hp-footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid $lighter-gray;
+
+  p {
+    font-size: 0.8em;
+    color: $gray;
+    line-height: 1.6;
+  }
+}
 /* ==========================================================================
   ARCHIVE
 ========================================================================== */

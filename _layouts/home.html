@@ -9,37 +9,24 @@ layout: compress
 
     {%- assign seo_url = site.url | append: site.baseurl -%}
     {% assign title_separator = '-' %}
-    {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
+    {%- assign seo_title = page.title | default: site.title | append: " " | append: title_separator | append: " " | append: site.description -%}
     {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
     {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
     {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
     {%- assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once -%}
 
-    {%- if page.date -%}
-      {%- assign og_type = "article" -%}
-    {%- else -%}
-      {%- assign og_type = "website" -%}
-    {%- endif -%}
+    <title>{{ site.title }} {{ title_separator }} {{ site.description }}</title>
+    <meta name="description" content="{{ site.aboutme }}">
 
-    <title>{{ seo_title }}</title>
-    <meta name="description" content="{{ seo_description }}">
-
-    <meta property="og:type" content="{{ og_type }}">
+    <meta property="og:type" content="website">
     <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+    <meta property="og:title" content="{{ site.title }} {{ title_separator }} {{ site.description }}">
     <meta property="og:url" content="{{ canonical_url }}">
-
-    {% if page.excerpt %}
-      <meta property="og:description" content="{{ seo_description }}">
-    {% endif %}
-
-    {% if page.date %}
-      <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    {% endif %}
+    <meta property="og:description" content="{{ site.aboutme }}">
 
     <link rel="canonical" href="{{ canonical_url }}">
-    <link rel="alternate" href="{{ canonical_url }}feed.xml"  type="application/rss+xml" title="Matt Arderne">
+    <link rel="alternate" href="{{ canonical_url }}feed.xml" type="application/rss+xml" title="{{ site.title }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -50,6 +37,21 @@ layout: compress
     <style>
       {{ styles | scssify }}
     </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "description": "{{ site.aboutme }}",
+      "sameAs": [
+        "https://github.com/{{ site.github }}",
+        "https://www.linkedin.com/in/{{ site.linkedin }}"
+      ]
+    }
+    </script>
+
     <script>
       !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
       posthog.init('phc_QtCNv7f5gZTt3p6SggeDPm8TEnr0oNUDFZWD96IhmGE',{api_host:'https://p81673.fra1.a.restack.io'})
@@ -57,12 +59,6 @@ layout: compress
   </head>
 
   <body>
-    <div class="home" role="main">
-      <div class="home-body">
-          {{ content }}
-      </div>
-    </div>
+    {{ content }}
   </body>
 </html>
-
-
