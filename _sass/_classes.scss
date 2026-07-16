@@ -477,6 +477,27 @@
   }
 }
 
+.social-icons {
+  line-height: 0;
+
+  a {
+    display: inline-block;
+    padding: 6px;
+    color: #737c7f;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    vertical-align: middle;
+  }
+}
+
 .icon {
   font-size: 1.4em;
   color: #737c7f;
