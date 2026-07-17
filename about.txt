@@ -1,0 +1,54 @@
+---
+layout: null
+---
+# About {{ site.data.career.personal.name }}
+
+## Overview
+{{ site.data.career.intro.headline }}. {{ site.data.career.intro.tagline }}
+
+Currently based in {{ site.location }}, originally from {{ site.data.career.personal.location_origin }}.
+
+## Current Role
+Co-founder at sea.dev - B2B data infrastructure company helping businesses improve their data.
+Website: https://sea.dev
+
+## Career Journey
+{% for chapter in site.data.career.chapters %}
+### {{ chapter.period }}: {{ chapter.title }}
+{{ chapter.headline }}
+{% if chapter.location %}Location: {{ chapter.location }}{% endif %}
+
+**What I did:**
+{% for item in chapter.what_i_did %}- {{ item }}
+{% endfor %}
+**Why I chose this:**
+{{ chapter.why_i_chose_this }}
+**What I learned:**
+{% for item in chapter.what_i_learned %}- {{ item }}
+{% endfor %}
+{% if chapter.pivot_moment %}**What led to next chapter:** {{ chapter.pivot_moment }}{% endif %}
+{% if chapter.whats_next %}**What's next:** {{ chapter.whats_next }}{% endif %}
+{% endfor %}
+## Personal
+
+Traits:
+{% for trait in site.data.career.personal.traits %}- {{ trait }}
+{% endfor %}
+Interests:
+{% for interest in site.data.career.personal.interests %}- {{ interest.name }}: {{ site.url }}{{ interest.link }}
+{% endfor %}
+## Contact
+- Email: {{ site.email }}
+- Twitter: https://twitter.com/{{ site.twitter }}
+- LinkedIn: https://linkedin.com/in/{{ site.linkedin }}
+- GitHub: https://github.com/{{ site.github }}
+- Website: {{ site.url }}
+
+## Other Projects
+{% for project in site.data.career.other_projects %}- {{ project.name }}: {{ project.description }} ({{ project.link }})
+{% endfor %}
+## My Brothers (also talented engineers)
+{% for brother in site.data.career.brothers %}- {{ brother.name }}: {{ brother.focus }} - {{ brother.link }}
+{% endfor %}
+---
+This text export is designed for LLM context. Visit {{ site.url }}/about for the interactive version.
